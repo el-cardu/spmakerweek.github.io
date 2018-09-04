@@ -16,7 +16,7 @@ SP MakerWeek is an entire week to discuss about digital fabrication, maker cultu
 
 ### :hearts: contributing
 
-For bug fixes, documentation improvements, typos, translations and simple changes, just make a PR. This project have some tech debts yet, so be careful! <br/>
+For bug fixes, documentation improvements, typos, translations and simple changes, just make a PR. This project have some tech debts yet and is under development, so be careful! <br/>
 
 For more complex changes, pls, make an issue first so we can discuss the design. <br/>
 
