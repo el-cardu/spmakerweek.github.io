@@ -1,29 +1,30 @@
 ![sp-maker-week](https://scontent.fcgh4-1.fna.fbcdn.net/v/t1.0-9/40457549_206369736753721_5084661135756492800_n.png?_nc_cat=0&_nc_eui2=AeEcsuCFc2YfPjUTUxhBD9MbDkDsvG88bzPcJYgHuO6pk53SK7BrhoVGnP7x18VWODzArCMpRmX4tcTg9MkpelpxPsPWTwZ2tWeuIwu6_UF98w&oh=7ebb41a1d752c123fbd1a5f8d1bd6894&oe=5C2D9EB9)
 
-### :computer: about 
+---
 
-SP MakerWeek is an entire week to discuss about digital fabrication, maker culture, social transformation, technology and diversity.
+### :computer: sobre 
+
+SP MakerWeek é uma semana inteira para falar sobre fabricação digital, cultura maker, transformação social, tecnologia e diversidade.
 
 ---
 
-### :wrench: built with
+### :wrench: construído com
 
-- HTML5, CSS3 && JS;
+- HTML + CSS + JS;
 - [Bootstrap 4](https://getbootstrap.com/);
 - [Github Pages](https://pages.github.com/).
 
 ---
 
-### :hearts: contributing
+### :hearts: contribuindo
 
-For bug fixes, documentation improvements, typos, translations and simple changes, just make a PR. This project have some tech debts yet and is under development, so be careful! <br/>
+Para reparar bugs, melhorias na documentação, traduções e demais mudanças simples: apenas faça um PR! O presente projeto ainda possui certos débitos técnicos à serem sanados, portanto, cuidado (rs)! <br/>
 
-For more complex changes, pls, make an issue first so we can discuss the design. <br/>
+Para mudanças mais complexas, por favor, abra uma __issue__ para que possamos discutir o design e a implementação.
 
 ---
 
-### :page_facing_up: license 
+### :page_facing_up: licenciamento 
 
-This project is licensed under the GNU Affero General Public License v3.0 (AGPL) - see the [LICENSE.md](https://github.com/spmakerweek/spmakerweek.github.io/blob/master/LICENSE) file for details. </br>
+Esse projeto tem licenciamento previsto pela GNU Affero General Public License v3.0 (AGPL) - veja em [LICENSE.md](https://github.com/spmakerweek/spmakerweek.github.io/blob/master/LICENSE) para detalhes. </br>
 
-The website design is under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International - see [more details](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode). For more informations about sharing, please contact [Nicole Avelino](https://www.behance.net/NicoleAvelino).
