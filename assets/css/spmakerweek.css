@@ -69,6 +69,11 @@ footer {
 
 @media  only screen and (min-width: 1920px) {
 
+  header {
+    position: relative;
+    z-index: 3;
+  }
+
   header h2 {  
    position: absolute;
    font-size: 18px;
@@ -79,6 +84,7 @@ footer {
   header a {
     position: absolute;
     padding-top: -400px;
+    z-index: 4;
   }
  
   .countdown {
