@@ -3,6 +3,24 @@ nav {
   height: 100px; 
 }
 
+header {
+  position: relative;
+  z-index: 3;
+}
+
+header h2 {  
+  position: absolute;
+  font-size: 18px;
+  top: -200px;
+  z-index: 4;
+}
+
+header a {
+  position: absolute;
+  top: 350px;
+  z-index: 4;
+}
+
 .countdown {
   background-color: #0D293C;
   color: #FFF;
@@ -33,14 +51,26 @@ footer {
 }
 
 @media(max-width: 992px) {
+  
   html {
     font-size: 45px;
   }
+  
   .countdown {
     height: 175px;
     padding-bottom: 15%;
     padding-top: 15%
   }
+  
   .countdown span {
   font-size: 50px;
+
+}]
+
+@media  only screen and (min-width: 1920px) {
+
+  .countdown {
+    height: 400px;  
+  }
+
 }
