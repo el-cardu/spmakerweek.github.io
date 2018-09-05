@@ -40,9 +40,14 @@ header a {
   height: 350px; 
 }
 
-.speakers {
+.speakers-section {
   background-color: #0D293C;  
-  height: 460px; 
+  height: 560px; 
+}
+
+.speakers-section img {
+  margin-top: 70px;
+  margin-left: 85px; 
 }
 
 .apoio-image {
