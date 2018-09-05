@@ -3,7 +3,7 @@ nav {
   height: 100px; 
 }
 
-header {
+header .header-image  {
   position: relative;
   z-index: 3;
 }
@@ -11,13 +11,13 @@ header {
 header h2 {  
   position: absolute;
   font-size: 18px;
-  top: -200px;
+  top: -160px;
   z-index: 4;
 }
 
 header a {
   position: absolute;
-  top: 350px;
+  top: 450px;
   z-index: 4;
 }
 
@@ -67,23 +67,23 @@ footer {
 
 }]
 
-@media  only screen and (min-width: 1920px) {
+@media (min-width: 1920px) {
 
-  header {
+  header .header-image  {
     position: relative;
     z-index: 3;
   }
 
   header h2 {  
-   position: absolute;
-   font-size: 18px;
-   top: -200px;
-   z-index: 4;
+    position: absolute;
+    font-size: 18px;
+    top: -160px;
+    z-index: 4;
   }
 
   header a {
     position: absolute;
-    padding-top: -400px;
+    top: 500px;
     z-index: 4;
   }
  
