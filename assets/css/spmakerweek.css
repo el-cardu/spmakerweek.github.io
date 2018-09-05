@@ -17,7 +17,7 @@ header h2 {
 
 header a {
   position: absolute;
-  top: 450px;
+  top: 420px;
   z-index: 4;
 }
 
@@ -45,6 +45,26 @@ header a {
   height: 460px; 
 }
 
+.apoio-image {
+  position: relative;
+  z-index: 3;
+}
+
+.como-chegar .endereco {
+  font-family: 'Roboto Bold', sans-serif;
+  font-size: 18px; 
+  top: -300px;
+  width: 200px;
+  height: 0;
+  margin-left: -100px;
+}
+
+.map {
+  height: 400px;
+  width: 1000px;
+  margin-top: -400px; 
+}
+
 footer {
   background-color: #0D293C;  
   height: 350px; 
@@ -64,31 +84,5 @@ footer {
   
   .countdown span {
   font-size: 50px;
-
-}]
-
-@media (min-width: 1920px) {
-
-  header .header-image  {
-    position: relative;
-    z-index: 3;
-  }
-
-  header h2 {  
-    position: absolute;
-    font-size: 18px;
-    top: -160px;
-    z-index: 4;
-  }
-
-  header a {
-    position: absolute;
-    top: 500px;
-    z-index: 4;
-  }
- 
-  .countdown {
-    height: 400px;  
-  }
 
 }
