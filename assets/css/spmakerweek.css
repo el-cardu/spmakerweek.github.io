@@ -40,6 +40,24 @@ header a {
   height: 350px; 
 }
 
+.agenda-section {
+  height: 560px; 
+}
+
+.agenda-image {
+  position: relative;
+  z-index: 3;
+}
+
+.agenda-botoes {
+  margin-top: -450px;
+  padding-bottom: : 200px;
+}
+
+.botao-agenda-1, .botao-agenda-2, .botao-agenda-3 {
+  margin-right: 40px;
+}
+
 .speakers-section {
   background-color: #0D293C;  
   height: 560px; 
@@ -56,12 +74,15 @@ header a {
 }
 
 .como-chegar .endereco {
-  font-family: 'Roboto Bold', sans-serif;
   font-size: 18px; 
   top: -300px;
   width: 200px;
   height: 0;
   margin-left: -100px;
+}
+
+.endereco p {
+    font-family: Roboto Bold, sans-serif;
 }
 
 .map {
