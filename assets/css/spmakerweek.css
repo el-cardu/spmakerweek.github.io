@@ -34,11 +34,30 @@ header a {
   vertical-align: middle;
   line-height: normal;
 }
-
-.atividades {
-  background-color: #FFF;  
-  height: 350px; 
+/*
+.atividades-section .exposicao-texto {
+  font-size: 14px; 
+  top: -160px;
+  width: 400px;
+  height: 0;
+  margin-left: 10px;
 }
+
+.atividades-section .conteudo-texto {
+  font-size: 14px; 
+  top: -300px;
+  width: 200px;
+  height: 0;
+  margin-left: -100px;
+}
+
+.atividades-section .comunidades-texto {
+  font-size: 14px; 
+  top: -300px;
+  width: 200px;
+  height: 0;
+  margin-left: -100px;
+} */
 
 .agenda-section {
   height: 560px; 
