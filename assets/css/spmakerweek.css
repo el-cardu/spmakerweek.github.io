@@ -34,30 +34,6 @@ header a {
   vertical-align: middle;
   line-height: normal;
 }
-/*
-.atividades-section .exposicao-texto {
-  font-size: 14px; 
-  top: -160px;
-  width: 400px;
-  height: 0;
-  margin-left: 10px;
-}
-
-.atividades-section .conteudo-texto {
-  font-size: 14px; 
-  top: -300px;
-  width: 200px;
-  height: 0;
-  margin-left: -100px;
-}
-
-.atividades-section .comunidades-texto {
-  font-size: 14px; 
-  top: -300px;
-  width: 200px;
-  height: 0;
-  margin-left: -100px;
-} */
 
 .agenda-section {
   height: 560px; 
@@ -112,7 +88,42 @@ header a {
 
 footer {
   background-color: #0D293C;  
-  height: 350px; 
+  height: 380px; 
+}
+
+footer h2, a {
+  top: 100px;
+  font-size: 18px;
+  text-align: center;
+  color: #FFF;
+}
+
+.logos, .icones {
+  margin: auto;
+  width: 50%;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.icones {
+  margin-left: 300px;
+}
+
+.logo-footer-prefeitura, .logo-footer-fablab, .logo-footer-its {
+  padding-right: 30px;
+  padding-bottom: 15px;
+}
+
+.logo-footer-prefeitura {
+  padding-top: 30px;
+}
+
+.logo-footer-fablab {
+  padding-top: 19px;
+}
+
+.logo-footer-its {
+  padding-top: 40px;
 }
 
 @media(max-width: 992px) {
