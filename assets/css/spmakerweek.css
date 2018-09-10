@@ -167,4 +167,11 @@ footer h2, a {
     margin-left: 650px;
   }
 
+  .speakers-section img {
+    margin-top: 70px;
+    margin-left: 120px; 
+    width: 350px;
+    height: 120px; 
+  }
+
 }
