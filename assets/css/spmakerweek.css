@@ -144,6 +144,28 @@ footer h2, a {
     font-size: 50px;
   }
 
+  footer {
+    height: 500px;
+  }
+
+  footer p, a {
+    font-size: 18px;
+    text-align: center;
+    color: #FFF;
+ }
+
+  .icones {
+    margin-left: 40px;
+  }
+
+  .logo-footer-prefeitura, .logo-footer-fablab, .logo-footer-its {
+    padding-right: 5px;
+    padding-bottom: 15px;
+  }
+
+  .logos-footer, .icones {
+  padding-top: 15px;
+
 }
 
 .texto-header-mobile {
@@ -172,7 +194,32 @@ footer h2, a {
 }
 
 .agenda-section-mobile {
-  height: 500px;  
+  height: 430px;  
+  position: relative;
+}
+
+.botao-agenda-mobile-1, 
+.botao-agenda-mobile-2 {
+  top: 150px;
+  padding-right: 10px;
+  position: absolute;
+}
+
+.botao-agenda-mobile-1,
+.botao-agenda-mobile-3 {
+   margin-left: 80px; 
+}
+
+.botao-agenda-mobile-2,
+.botao-agenda-mobile-4 {
+   margin-left: 230px; 
+}
+
+.botao-agenda-mobile-3,
+.botao-agenda-mobile-4 {
+  top: 280px;
+  padding-right: 10px;
+  position: absolute;
 }
 
 .agenda-section-mobile-button, .speakers-section-mobile-button {
@@ -214,6 +261,7 @@ footer h2, a {
 
   .agenda-section {
     height: 700px; 
+    position: relative;
   }
 
   .agenda-botoes {
