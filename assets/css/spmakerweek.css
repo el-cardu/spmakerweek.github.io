@@ -169,6 +169,39 @@ footer h2, a {
   width: 50%;
 }
 
+.agenda-section-mobile {
+  height: 500px;  
+}
+
+.agenda-section-mobile-button, .speakers-section-mobile-button {
+  padding-top: 30px;
+  margin-left: 20px;
+}
+
+.speakers-section-mobile {
+  height: 414px;  
+  background-color: #0D293C;
+}
+
+.mapa-section-mobile {
+  position: relative;
+}
+
+.ver-no-mapa-button-mobile {
+  margin-left: 70px;
+  top: 230px;
+  position: absolute;
+}
+
+.endereco-mobile {
+  font-size: 18px; 
+  top: 170px;
+  text-align: left;
+  margin-left: 70px;
+  line-height: 20px;
+  position: absolute;
+}
+
 /* large screens stuff */
 
 @media(min-width: 1920px) {
