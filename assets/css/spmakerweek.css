@@ -160,13 +160,15 @@ footer h2, a {
 }
 
 .inscreva-section-mobile {
-  height: 160px;
-  padding-top: 30px;
+  position: relative;
 }
 
 .inscreva-mobile-image {
   margin: 0 auto;
-  width: 50%;
+  width: 70%;
+  position: absolute;
+  top: 20px;
+  left: 60px;
 }
 
 .agenda-section-mobile {
@@ -189,13 +191,13 @@ footer h2, a {
 
 .ver-no-mapa-button-mobile {
   margin-left: 70px;
-  top: 230px;
+  top: 190px;
   position: absolute;
 }
 
 .endereco-mobile {
   font-size: 18px; 
-  top: 170px;
+  top: 140px;
   text-align: left;
   margin-left: 70px;
   line-height: 20px;
