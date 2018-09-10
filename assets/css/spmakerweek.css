@@ -98,7 +98,7 @@ footer h2, a {
   color: #FFF;
 }
 
-.logos, .icones {
+.logos-footer, .icones {
   margin: auto;
   width: 50%;
   padding-bottom: 15px;
@@ -139,6 +139,32 @@ footer h2, a {
   }
   
   .countdown span {
-  font-size: 50px;
+    font-size: 50px;
+  }
+
+}
+
+@media(min-width: 1920px) {
+
+  .agenda-section {
+    height: 700px; 
+  }
+
+  header a {
+    top: 680px;
+  }  
+
+  .agenda-botoes {
+    margin-top: -600px;
+    padding-bottom: : 200px;
+  }
+
+  .icones {
+    margin-left: 450px;
+  }
+
+  .logos-footer {
+    margin-left: 650px;
+  }
 
 }
