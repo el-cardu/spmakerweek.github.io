@@ -126,6 +126,8 @@ footer h2, a {
   padding-top: 40px;
 }
 
+/* mobile stuff */
+
 @media(max-width: 992px) {
   
   html {
@@ -135,7 +137,7 @@ footer h2, a {
   .countdown {
     height: 175px;
     padding-bottom: 15%;
-    padding-top: 15%
+    padding-top: 10%
   }
   
   .countdown span {
@@ -144,15 +146,40 @@ footer h2, a {
 
 }
 
-@media(min-width: 1920px) {
+.texto-header-mobile {
+  padding-top: 25px;
+  padding-down: 15px;
+  background-color: #0D293C;
+  color: #FFF;
+  height: 160px;
+  text-align: center;
+}
 
-  .agenda-section {
-    height: 700px; 
-  }
+.texto-header-mobile h2 {
+  font-size: 18px;
+}
+
+.inscreva-section-mobile {
+  height: 160px;
+  padding-top: 30px;
+}
+
+.inscreva-mobile-image {
+  margin: 0 auto;
+  width: 50%;
+}
+
+/* large screens stuff */
+
+@media(min-width: 1920px) {
 
   header a {
     top: 680px;
   }  
+
+  .agenda-section {
+    height: 700px; 
+  }
 
   .agenda-botoes {
     margin-top: -600px;
