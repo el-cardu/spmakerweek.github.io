@@ -4,7 +4,7 @@
 
 ### sobre 
 
-SP MakerWeek é uma semana inteira para falar sobre fabricação digital, cultura maker, transformação social, tecnologia e diversidade.
+[SP MakerWeek](https://fablablivresp.github.io/spmakerweek) é uma semana inteira para falar sobre fabricação digital, cultura maker, transformação social, tecnologia e diversidade.
 
 ---
 
