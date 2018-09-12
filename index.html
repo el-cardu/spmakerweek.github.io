@@ -31,6 +31,8 @@
     <!-- Stylesheets -->
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Slick CSS -->
+    <link rel="stylesheet" href="vendor/slick/slick.css">
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="assets/css/spmakerweek.css"> 
     <!-- Custom fonts for this template -->
@@ -41,10 +43,9 @@
 
 <body>
 
-<!--
-    <nav>
-    </nav> -->
-  
+    <nav class="d-none d-lg-block header-image img-fluid">
+    </nav> 
+
     <!-- Header Web -->
     <header>
         <img src="./assets/img/spmw-section.png" class="d-none d-lg-block header-image img-fluid" alt="Background com textura hexagonal, constando em caixa alta, #SPMW 2018">
@@ -62,19 +63,25 @@
             </div>
         </div>
     </header> 
+    <!--/ Header Web -->
 
     <!-- Header/Logo Mobile -->
-    <header id="logo-header-mobile" class="d-block d-lg-none d-xl-none logo-header-mobile">
+    <header id="logo-header-mobile" class="d-block d-lg-none d-xl-none logo-header-mobile container-fluid">
         <img src="./assets/img/header-logo-mobile.png" class="img-fluid" alt="Background com textura hexagonal, constando o logo do SPMW">
     </header>
+    <!--/ Header/Logo Mobile -->
+
+    <!-- Nav Mobile -->
+    <!--/ Nav Mobile -->
 
     <!-- Header SMPW Mobile -->
-    <section id="spmw-header-mobile" class="d-block d-lg-none d-xl-none logo-header-mobile">
+    <section id="spmw-header-mobile" class="d-block d-lg-none d-xl-none logo-header-mobile container-fluid">
         <img src="./assets/img/header-spmw-mobile.png" class="img-fluid" alt="Background com textura hexagonal, constando em caixa alta, #SPMW 2018">
     </section>
+    <!--/ Header SMPW Mobile -->    
 
     <!-- Textinho Mobile -->
-    <section id="texto-header-mobile" class="d-block d-lg-none d-xl-none texto-header-mobile">
+    <section id="texto-header-mobile" class="d-block d-lg-none d-xl-none texto-header-mobile container-fluid">
         <div class="description center-align"> 
             <h2>
                 Uma semana inteira para falar sobre <strong>fabricação digital, cultura maker, transformação social, tecnologia e diversidade</strong>.
@@ -83,6 +90,7 @@
             </h2>  
         </div>  
     </section>   
+    <!--/ Textinho Mobile -->
 
     <!-- Inscreva-se Mobile -->
     <section id="inscreva-mobile" class="d-block d-lg-none d-xl-none inscreva-section-mobile">
@@ -93,11 +101,13 @@
             <a href="https://www.sympla.com.br/sp-makerweek-2018__355574" target="_blank" id="inscreva"><img class="img-fluid" src="./assets/img/inscrevase.png"></a>
         </div>
     </section>   
+    <!--/ Inscreva-se Mobile -->
 
     <!-- Countdown Web/Mobile -->
-    <section id="countdown-section" class="countdown text-center">
+    <section id="countdown-section" class="countdown text-center container-fluid">
         <span id="countdown"></span> 
     </section>
+    <!--/ Countdown Web/Mobile -->    
 
     <!-- Atividades Web -->
     <section id="atividades-section" class="d-none d-lg-block atividades-section">
@@ -105,8 +115,50 @@
             <img src="./assets/img/atividades-section.png" class="img-fluid" alt="Background com textura hexagonal. Seção com as atividades previstas na SP MakerWeek.">  
         </div>
     </section> 
+    <!--/ Atividades Web -->
 
-    <!-- Atividades Mobile -->
+    <!-- Atividades Mobile
+    <section id="atividades-mobile" class="d-block d-lg-none d-xl-none atividades-section-mobile">
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h5 class="">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Collapsible Group Item #1</button>
+                    </h5>
+            </div>
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+            </div>
+        </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Collapsible Group Item #2 </button>
+                    </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class>
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Collapsible Group Item #3</button></h5>
+                </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+   Atividades Mobile -->
 
     <!-- Agenda Web -->
     <section id="agenda-section" class="d-none d-lg-block agenda-section">
@@ -129,9 +181,10 @@
             </div>
         </div>
     </section>   
+    <!--/ Agenda Web -->
 
     <!-- Agenda Mobile -->
-    <section id="agenda-mobile" class="d-block d-lg-none d-xl-none agenda-section-mobile">
+    <section id="agenda-mobile" class="d-block d-lg-none d-xl-none agenda-section-mobile container-fluid">
         <div class="agenda-section-mobile-button">
             <img src="./assets/img/agenda-mobile.png"  width="40%" alt="Seção com a agenda da SP MakerWeek.">  
         </div>
@@ -151,34 +204,135 @@
                 </div> 
         </div>
     </section>
+    <!--/ Agenda Mobile -->
 
     <!-- Speakers Web -->
     <section id="speakers-section" class="d-none d-lg-block speakers-section">
         <div class="speakers">
             <img width="280px" height="90px" src="assets/img/speakers-section.png" alt="Background azul escuro. Seção com os palestrantes que participarão da SP MakerWeek">
         </div>
+        <div class="container">
+            <div class="speakers-carousel" id="speakers-carousel">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 speaker">
+                            <div class="speaker-img">
+                                <img src="http://gelevanog.com/bevent/min/assets/img/speakers/1.jpg">
+                            </div>
+                            <div class="speaker-desc">
+                                <p>Nome<br>WHOAMI</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 speaker">
+                        <div class="speaker-img">
+                            <img src="http://gelevanog.com/bevent/min/assets/img/speakers/1.jpg">
+                        </div>
+                        <div class="speaker-desc">
+                            <p>Nome<br>WHOAMI</p>
+                        </div>
+                       </div>
+                       <div class="col-md-3 speaker">
+                            <div class="speaker-img">
+                                <img src="http://gelevanog.com/bevent/min/assets/img/speakers/1.jpg">
+                            </div>
+                            <div class="speaker-desc">
+                                <p>Nome<br>WHOAMI</p>
+                            </div>
+                         </div>
+                     <div class="col-md-3 speaker">
+                        <div class="speaker-img">
+                            <img src="http://gelevanog.com/bevent/min/assets/img/speakers/1.jpg">
+                        </div>
+                        <div class="speaker-desc">
+                            <p>Nome<br>WHOAMI</p>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+          </div>
+        </div>        
     </section> 
+    <!--/ Speakers Web -->
 
     <!-- Speakers Mobile -->
-    <section id="speakers-mobile" class="d-block d-lg-none d-xl-none speakers-section-mobile">
+    <section id="speakers-mobile" class="d-block d-lg-none d-xl-none speakers-section-mobile container-fluid">
         <div class="speakers-section-mobile">
             <div class="speakers-section-mobile-button">
                 <img src="./assets/img/speakers-mobile.png"  width="40%" alt="Background azul escuro. Seção com os palestrantes que participarão da SP MakerWeek.">  
             </div>
         </div>
+        <div class="container">
+            <div class="speakers-carousel" id="speakers-carousel">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 speaker">
+                            <div class="speaker-img">
+                                <img src="http://gelevanog.com/bevent/min/assets/img/speakers/1.jpg">
+                            </div>
+                            <div class="speaker-desc">
+                                <p>Nome<br>WHOAMI</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+    <!--/ Speakers Mobile -->
 
     <!-- Comunidades Web -->
     <section id="comunidades-section"  class="d-none d-lg-block comunidades-section">
         <div class="comunidades-image">
             <img src="./assets/img/comunidades-section.png" class="img-fluid" alt="Background com textura hexagonal. Seção com as comunidades que participarão da SP MakerWeek.">  
         </div>
+        <div class="container">
+            <div class="comunidades-carousel" id="comunidades-carousel">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 comunidade">
+                            <div class="comunidade-img">
+                                <img src="http://gelevanog.com/bevent/min/assets/img/speakers/1.jpg">
+                            </div>
+                            <div class="comunidade-desc">
+                                <p>Nome<br>WHOAMI</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 speaker">
+                        <div class="comunidade-img">
+                            <img src="http://gelevanog.com/bevent/min/assets/img/speakers/1.jpg">
+                        </div>
+                        <div class="comunidade-desc">
+                            <p>Nome<br>WHOAMI</p>
+                        </div>
+                       </div>
+                       <div class="col-md-3 speaker">
+                            <div class="comunidade-img">
+                                <img src="http://gelevanog.com/bevent/min/assets/img/speakers/1.jpg">
+                            </div>
+                            <div class="comunidade-desc">
+                                <p>Nome<br>WHOAMI</p>
+                            </div>
+                         </div>
+                     <div class="col-md-3 speaker">
+                        <div class="comunidade-img">
+                            <img src="http://gelevanog.com/bevent/min/assets/img/speakers/1.jpg">
+                        </div>
+                        <div class="comunidade-desc">
+                            <p>Nome<br>WHOAMI</p>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+          </div>
+        </div>      
     </section>
+    <!--/ Comunidades Web -->
 
     <!-- Comunidades Mobile -->
-    <section id="mapa-section-mobile" class="d-block d-lg-none d-xl-none mapa-section-mobile">
+    <section id="mapa-section-mobile" class="d-block d-lg-none d-xl-none mapa-section-mobile container-fluid">
         <img src="./assets/img/comunidades-section-mobile.png" class="img-fluid" alt="Background com textura hexagonal. Seção como chegar na SP MakerWeek.">
     </section>
+    <!--/ Comunidades Mobile -->
 
     <!-- Mapa Web -->
     <section id="mapa-section" class="d-none d-lg-block mapa-section">
@@ -197,9 +351,10 @@
             <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC64h5aSIxgQIhhca7rzDQaErgarB7-Yx8&callback=initMap" async defer></script>
         </div>
     </section>
+    <!--/ Mapa Web -->
 
     <!-- Mapa Mobile -->
-    <section id="mapa-section-mobile" class="d-block d-lg-none d-xl-none mapa-section-mobile">
+    <section id="mapa-section-mobile" class="d-block d-lg-none d-xl-none mapa-section-mobile container-fluid">
         <div class="mapa-image-mobile">
             <img src="./assets/img/como-chegar-section-mobile.png" class="img-fluid" alt="Background com textura hexagonal. Seção como chegar na SP MakerWeek.">
         </div>
@@ -210,6 +365,7 @@
             <a href="https://www.google.com.br/maps/place/R.+Pedroso,+238+-+Bela+Vista,+S%C3%A3o+Paulo+-+SP,+01321-001/@-23.561983,-46.6432702,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce59a52ee80df7:0x2e73e5fd61547d1a!8m2!3d-23.561983!4d-46.6410815" target="_blank"><img width="50%" src="./assets/img/ver-no-mapa-button-mobile.png" class="img-fluid" alt="Botão para ver localização no Google Maps"></a>
         </div>
     </section>
+    <!--/ Mapa Mobile -->
 
     <!-- Apoio Web -->
     <section id="apoio-section" class="d-none d-lg-block apoio-section">
@@ -217,50 +373,53 @@
             <img src="./assets/img/apoio-section.png" class="img-fluid" alt="Seção com Apoiadores da SP MakerWeek - a citar: Instituto Pedra, ITS Brasil, Vila Itororó/Canteiro Aberto, Fablab Livre SP && Prefeitura de São Paulo, Inovação e Tecnologia">  
         </div>
     </section>
+    <!--/ Apoio Web -->
 
     <!-- Apoio Mobile -->
-    <section id="apoio-section-mobile" class="d-block d-lg-none d-xl-none apoio-section-mobile">
+    <section id="apoio-section-mobile" class="d-block d-lg-none d-xl-none apoio-section-mobile container-fluid">
        <div class="apoio-section-mobile-image">
             <img src="./assets/img/apoio-section-mobile.png" class="img-fluid" alt="Seção com Apoiadores da SP MakerWeek - a citar: Instituto Pedra, ITS Brasil, Vila Itororó/Canteiro Aberto, Fablab Livre SP && Prefeitura de São Paulo, Inovação e Tecnologia">  
         </div>
     </section>
+    <!--/ Apoio Mobile -->
 
     <!-- Footer Web -->
     <footer class="d-none d-lg-block footer-section">
      <div class="icones center-align">
          <ul class="icones list-inline mb-0">
              <li class="list-inline-item mr-3">
-                 <a href="#">
+                 <a href="https://facebook.com/spmakerweek/">
                      <i class="fa fa-facebook fa-2x fa-fw"></i>
                  </a>
              </li>
              <li class="list-inline-item">
-                 <a href="#">
+                 <a href="https://www.instagram.com/spmakerweek/">
                      <i class="fa fa-instagram fa-2x fa-fw"></i>
                  </a>
              </li>
          </ul>
      </div>
-     <h2>Rua Pedroso 238 - Bela Vista São Paulo - SP | 01322-010</h2>
-     <h2>(11) 2075-7289</h2>
-     <h2><a href="mailto:fablab@prefeitura.sp.gov.br?subject=Feedback">fablab@prefeitura.sp.gov.br</a></h2>
-     <div class="row logos center-align">
-         <div class="logo-footer-prefeitura">
-             <img width="200px" src="./assets/img/logo-footer-prefeitura.png" alt="Logo da PMSP">
+     <h2><strong>Rua Pedroso 238 - Bela Vista São Paulo - SP | 01322-010</strong></h2>
+     <h2><strong>(11) 2075-7289</strong></h2>
+     <h2><strong><a href="mailto:fablab@prefeitura.sp.gov.br?subject=Feedback">fablab@prefeitura.sp.gov.br</a></strong></h2>
+     <div class="row logos-footer center-align">
+         <div class="logo-footer-its">
+             <img width="200px" src="./assets/img/logo-footer-its.png" alt="Logo do its Brasil">
          </div>
          <div class="logo-footer-fablab">
              <img width="170px" src="./assets/img/logo-footer-fablab.png" alt="Logo do FABLAB LIVRE SP">
-         </div>  
-         <div class="logo-footer-its">
-             <img width="200px" src="./assets/img/logo-footer-its.png" alt="Logo do its Brasil">
-         </div>                                         
+         </div>               
+          <div class="logo-footer-prefeitura">
+             <img width="200px" src="./assets/img/logo-footer-prefeitura.png" alt="Logo da PMSP">
+        </div>                            
      </div>
     </footer>
+    <!--/ Footer Web -->
 
     <!-- Footer Mobile -->
-    <footer id="footer" class="footer-section-mobile d-block d-lg-none d-xl-none">
-        <div class="icones center-align">
-            <ul class="icones list-inline mb-0">
+    <footer id="footer" class="footer-section-mobile d-block d-lg-none d-xl-none container-fluid">
+        <div class="icones-mobile center-align">
+            <ul class="icones-mobile list-inline mb-0">
                 <li class="list-inline-item mr-3">
                     <a href="#">
                         <i class="fa fa-facebook fa-2x fa-fw"></i>
@@ -279,22 +438,24 @@
             (11) 2075-7289 <br>
             <a href="mailto:fablab@prefeitura.sp.gov.br?subject=Feedback">fablab@prefeitura.sp.gov.br</a> <br>
         </p>
-        <div class="row logos-footer center-align">
-            <div class="logo-footer-prefeitura">
-                <img width="10px" src="./assets/img/logo-footer-prefeitura.png" alt="Logo da PMSP">
+        <div class="row logos-footer-mobile center-align">
+            <div class="logo-footer-its-mobile">
+                <img width="90px" src="./assets/img/logo-footer-its.png" alt="Logo do its Brasil">
+            </div>     
+            <div class="logo-footer-fablab-mobile">
+                <img width="90px" src="./assets/img/logo-footer-fablab.png" alt="Logo do FABLAB LIVRE SP">
             </div>
-            <div class="logo-footer-fablab">
-                <img width="10px" src="./assets/img/logo-footer-fablab.png" alt="Logo do FABLAB LIVRE SP">
-            </div>  
-            <div class="logo-footer-its">
-                <img width="10px" src="./assets/img/logo-footer-its.png" alt="Logo do its Brasil">
-            </div>                                         
+            <div class="logo-footer-prefeitura-mobile">
+                <img width="90px" src="./assets/img/logo-footer-prefeitura.png" alt="Logo da PMSP">
+            </div>                                      
         </div>
     </footer> 
+    <!--/ Footer Mobile -->
 
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick.min.js"></script>
 
 </body>
 

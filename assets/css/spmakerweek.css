@@ -1,3 +1,7 @@
+html {
+  overflow-x: hidden;
+}
+
 nav {
   background-color: #FFF;  
   height: 100px; 
@@ -63,6 +67,88 @@ header a {
   margin-left: 85px; 
 }
 
+.speakers-carousel {
+  padding: 60px 0;
+}
+
+.speakers-carousel .speaker-img {
+  width: 90%;
+  margin: 0 auto;
+  left: -60px;
+  top: -80px;
+  position: relative;
+  z-index: 3;
+}
+
+.speakers-carousel .speaker-img img {
+  border-radius: 150%;
+  padding: 6px;
+  border: solid #FFF;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 3;
+}
+
+.speakers-carousel .speaker-desc {
+  color: #FFF;
+  text-align: center;
+  margin: 0 auto;
+  top: 230px;
+  position: absolute;
+  z-index: 3;
+}
+
+.speakers-carousel .speaker-desc p {
+  font-size: 18px;
+  margin-left: 110px;
+  z-index: 3;
+}
+
+.comunidades-image {
+  position: relative;
+  z-index: 2;
+}
+
+.comunidades-carousel {
+  padding: 0;
+}
+
+.comunidades-carousel .comunidade-img {
+  width: 80%;
+  margin: 0 auto;
+  left: 50px;
+  top: -360px;
+  position: absolute;
+  z-index: 3;
+}
+
+.comunidades-carousel .comunidade-img img {
+  border-radius: 150%;
+  padding: 6px;
+  border: solid #EB1C24;
+  display: inline-block;
+  max-width: 100%;
+  position: absolute;
+  z-index: 50;
+}
+
+.comunidades-carousel .comunidade-desc {
+  color: #EB1C24;
+  text-align: center;
+  margin: 0 auto;
+  top: -180px;
+  position: absolute;
+  z-index: 50;
+}
+
+.comunidades-carousel .comunidade-desc p {
+  font-size: 18px;
+  margin-left: 110px;
+  margin-top: 60px;
+  z-index: 50;
+  position: absolute;
+}
+
 .apoio-image {
   position: relative;
   z-index: 3;
@@ -77,7 +163,7 @@ header a {
 }
 
 .endereco p {
-    font-family: Roboto Bold, sans-serif;
+  font-family: Roboto Bold, sans-serif;
 }
 
 .map {
@@ -91,46 +177,40 @@ footer {
   height: 380px; 
 }
 
-footer {
-   background-color: #0D293C;  
-   height: 350px; 
-   height: 380px; 
- }
+footer h2, a {
+  top: 100px;
+  font-size: 18px;
+  text-align: center;
+  color: #FFF;
+}
 
- footer h2, a {
-   top: 100px;
-   font-size: 18px;
-   text-align: center;
-   color: #FFF;
- }
+.logos-footer, .icones {
+  width: 50%;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  margin-left: 25%;
+}
 
- .logos, .icones {
-   margin: auto;
-   width: 50%;
-   padding-bottom: 15px;
-   padding-top: 15px;
- }
+.icones {
+  margin-left: 300px;
+}
 
- .icones {
-   margin-left: 300px;
- }
+.logo-footer-prefeitura, .logo-footer-fablab, .logo-footer-its {
+  padding-right: 30px;
+  padding-bottom: 15px;
+}
 
- .logo-footer-prefeitura, .logo-footer-fablab, .logo-footer-its {
-   padding-right: 30px;
-   padding-bottom: 15px;
- }
+.logo-footer-prefeitura {
+  padding-top: 30px;
+}
 
- .logo-footer-prefeitura {
-   padding-top: 30px;
- }
+.logo-footer-fablab {
+  padding-top: 19px;
+}
 
- .logo-footer-fablab {
-   padding-top: 19px;
- }
-
- .logo-footer-its {
-   padding-top: 40px;
- }
+.logo-footer-its {
+  padding-top: 40px;
+}
 
 /* mobile stuff */
 
@@ -138,6 +218,7 @@ footer {
   
   html {
     font-size: 45px;
+    overflow-x: hidden;
   }
   
   .countdown {
@@ -149,6 +230,18 @@ footer {
   .countdown span {
     font-size: 50px;
   }
+
+  .speakers-carousel .speaker-img {
+    width: 60%;
+    margin: 0 auto;
+    left: 0px;
+    top: -370px;
+    z-index: 3;
+}
+
+.speakers-carousel .speakers-desc {
+  top: -100px;
+}
 
   footer {
     height: 500px;
@@ -171,7 +264,6 @@ footer {
 
   .logos-footer, .icones {
   padding-top: 15px;
-
 }
 
 .texto-header-mobile {
@@ -213,12 +305,12 @@ footer {
 
 .botao-agenda-mobile-1,
 .botao-agenda-mobile-3 {
-   margin-left: 80px; 
+   margin-left: 60px; 
 }
 
 .botao-agenda-mobile-2,
 .botao-agenda-mobile-4 {
-   margin-left: 230px; 
+   margin-left: 200px; 
 }
 
 .botao-agenda-mobile-3,
@@ -234,7 +326,7 @@ footer {
 }
 
 .speakers-section-mobile {
-  height: 414px;  
+  height: 484px;  
   background-color: #0D293C;
 }
 
@@ -255,6 +347,24 @@ footer {
   margin-left: 70px;
   line-height: 20px;
   position: absolute;
+}
+
+.logos-footer-mobile, .icones {
+  margin-bottom: 30px;
+  padding-top: 15px;
+  margin-left: 40px;
+}
+
+.icones-mobile {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 5px;
+  margin-left: 60px;
+}
+
+.logo-footer-prefeitura-mobile, .logo-footer-fablab-mobile, .logo-footer-its-mobile {
+  padding-right: 10px;
+  padding-bottom: 15px;
 }
 
 /* large screens stuff */
