@@ -216,7 +216,7 @@ footer h2, a {
 
 @media(max-width: 992px) {
   
-  html {
+  body {
     font-size: 45px;
     overflow-x: hidden;
   }
@@ -239,9 +239,9 @@ footer h2, a {
     z-index: 3;
 }
 
-.speakers-carousel .speakers-desc {
-  top: -100px;
-}
+  .speakers-carousel .speakers-desc {
+    top: -100px;
+  }
 
   footer {
     height: 500px;
