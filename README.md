@@ -38,7 +38,7 @@ $ cd spmakerweek
 
 ### contribuindo
 
-Para reparar bugs, melhorias na documentação, traduções e demais mudanças simples: apenas faça um PR! O presente projeto ainda possui certos débitos técnicos à serem sanados, portanto, cuidado (rs)! <br/>
+Para reparar bugs, melhorias na documentação, traduções e demais mudanças simples: apenas faça um PR! O presente projeto ainda possui certas deficiências técnicas à serem sanadas, portanto, cuidado! <br/>
 
 Para mudanças mais complexas, por favor, abra uma __issue__ para que possamos discutir o design e a implementação. </br>
 
