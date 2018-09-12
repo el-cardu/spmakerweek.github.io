@@ -2,13 +2,33 @@
 
 ---
 
-### :computer: sobre 
+### sobre 
 
 SP MakerWeek é uma semana inteira para falar sobre fabricação digital, cultura maker, transformação social, tecnologia e diversidade.
 
 ---
 
-### :wrench: construído com
+### how-to-run local
+
+1. Certifique-se que você tem instalado na sua máquina:
+	- [Any CLI/Git](https://git-for-windows.github.io/)
+
+2. Na sua interface de linha de comando, utilize os seguintes comandos!
+
+```bash
+# Clone this repository
+$ git clone https://github.com/fablablivresp/spmakerweek
+
+# Go into the repository
+$ cd spmakerweek
+
+```
+
+3. Abra o repositório no seu navegador e divirta-se com alterações locais.
+
+---
+
+### construído com
 
 - HTML + CSS + JS;
 - [Bootstrap 4](https://getbootstrap.com/);
@@ -16,15 +36,24 @@ SP MakerWeek é uma semana inteira para falar sobre fabricação digital, cultur
 
 ---
 
-### :hearts: contribuindo
+### contribuindo
 
 Para reparar bugs, melhorias na documentação, traduções e demais mudanças simples: apenas faça um PR! O presente projeto ainda possui certos débitos técnicos à serem sanados, portanto, cuidado (rs)! <br/>
 
-Para mudanças mais complexas, por favor, abra uma __issue__ para que possamos discutir o design e a implementação.
+Para mudanças mais complexas, por favor, abra uma __issue__ para que possamos discutir o design e a implementação. </br>
+
+Roadmap para contribuir: </br>
+
+0. Faça um __fork__ desse repositório.
+1. Crie uma __branch__ com sua funcionalidade (git checkout -b my-new-feature).
+2. Faça um __commit__ das suas modificações (git commit -am 'Add some feature').
+3. Envie as suas mudanças (git push origin my-new-feature).
+4. Crie um novo __Pull Request__.
 
 ---
 
-### :page_facing_up: licenciamento 
+
+### licenciamento 
 
 Esse projeto tem licenciamento previsto pela GNU Affero General Public License v3.0 (AGPL) - veja em [LICENSE.md](https://github.com/fablablivresp/spmakerweek/blob/master/LICENSE) para detalhes. </br>
 
