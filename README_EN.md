@@ -36,7 +36,7 @@ $ cd spmakerweek
 
 ---
 
-### :hearts: contributing
+### contributing
 
 For bug fixes, documentation improvements, typos, translations and simple changes, just make a PR. This project have some tech debts yet and is under development, so be careful! <br/>
 
@@ -52,7 +52,7 @@ Roadmap for contributing: </br>
 
 ---
 
-### :page_facing_up: license 
+### license 
 
 This project is licensed under the GNU Affero General Public License v3.0 (AGPL) - see the [LICENSE.md](https://github.com/fablablivresp/spmakerweekblob/master/LICENSE) file for details. </br>
 
