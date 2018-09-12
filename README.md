@@ -26,5 +26,6 @@ Para mudanças mais complexas, por favor, abra uma __issue__ para que possamos d
 
 ### :page_facing_up: licenciamento 
 
-Esse projeto tem licenciamento previsto pela GNU Affero General Public License v3.0 (AGPL) - veja em [LICENSE.md](https://github.com/spmakerweek/spmakerweek.github.io/blob/master/LICENSE) para detalhes. </br>
+Esse projeto tem licenciamento previsto pela GNU Affero General Public License v3.0 (AGPL) - veja em [LICENSE.md](https://github.com/fablablivresp/spmakerweek/blob/master/LICENSE) para detalhes. </br>
 
+O design do presente website tem licenciamento previsto pela Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International - veja [mais detalhes](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode). Para mais informações acerca de sua distribuição, entre em contato com [Nicole Avelino](https://www.behance.net/NicoleAvelino).

@@ -24,6 +24,6 @@ For more complex changes, pls, make an issue first so we can discuss the design.
 
 ### :page_facing_up: license 
 
-This project is licensed under the GNU Affero General Public License v3.0 (AGPL) - see the [LICENSE.md](https://github.com/spmakerweek/spmakerweek.github.io/blob/master/LICENSE) file for details. </br>
+This project is licensed under the GNU Affero General Public License v3.0 (AGPL) - see the [LICENSE.md](https://github.com/fablablivresp/spmakerweekblob/master/LICENSE) file for details. </br>
 
 The website design is under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International - see [more details](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode). For more informations about sharing, please contact [Nicole Avelino](https://www.behance.net/NicoleAvelino).

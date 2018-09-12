@@ -3,7 +3,6 @@ html {
 }
 
 nav {
-  background-color: #FFF;  
   height: 100px; 
 }
 
@@ -390,7 +389,7 @@ footer h2, a {
   }
 
   .logos-footer {
-    margin-left: 650px;
+    margin-left: 800px;
   }
 
   .speakers-section img {
