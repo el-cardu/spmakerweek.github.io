@@ -183,7 +183,7 @@ footer h2, a {
   color: #FFF;
 }
 
-.logos-footer, .icones {
+.logos-footer {
   width: 50%;
   padding-bottom: 15px;
   padding-top: 15px;
@@ -191,7 +191,7 @@ footer h2, a {
 }
 
 .icones {
-  margin-left: 300px;
+  padding-left: 22%;
 }
 
 .logo-footer-fablab, .logo-footer-its {
@@ -243,7 +243,7 @@ footer h2, a {
   }
 
   footer {
-    height: 500px;
+    height: 400px;
   }
 
   footer p, a {
@@ -263,6 +263,8 @@ footer h2, a {
 
   .logos-footer, .icones {
   padding-top: 15px;
+}
+
 }
 
 .texto-header-mobile {
@@ -368,14 +370,23 @@ footer h2, a {
 
 /* large screens stuff */
 
-@media(min-width: 1920px) {
+@media screen and (min-width: 1920px) {
 
   header a {
     top: 680px;
   }  
 
+  .speakers-carousel .speaker-img {
+    width: 90%;
+    margin: 0 auto;
+    left: -60px;
+    top: -80px;
+    position: relative;
+    z-index: 3;
+}
+
   .agenda-section {
-    height: 700px; 
+    height: 800px; 
     position: relative;
   }
 
@@ -385,18 +396,30 @@ footer h2, a {
   }
 
   .icones {
-    margin-left: 450px;
+    padding-left: 415px;
   }
 
   .logos-footer {
-    margin-left: 800px;
+    margin-left: 650px;
   }
 
   .speakers-section img {
     margin-top: 70px;
-    margin-left: 120px; 
-    width: 350px;
-    height: 120px; 
+    margin-left: 130px; 
+  }
+
+  .speakers-carousel .speaker-desc p {
+    margin-left: 150px;
+  }
+
+  .comunidades-carousel .comunidade-img {
+    top: -450px;
+    left: 100px;
+  }
+
+  .comunidades-carousel .comunidade-desc{
+    top: -250px;
+    left: 60px;
   }
 
 }
