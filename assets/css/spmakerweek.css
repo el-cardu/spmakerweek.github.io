@@ -3,7 +3,66 @@ html {
 }
 
 nav {
-  height: 100px; 
+  height: 100%; 
+}
+
+.navbar-default {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: inline-block;
+  background-color: transparent;
+  border-color: transparent;
+  background-image: none;
+  box-shadow: none;
+  position: relative;
+  z-index: 5;
+}
+
+.navbar-image {
+  position: relative;
+  z-index: 3;
+}
+
+.navbar-brand a {
+  top: 30px;
+  z-index: 10;
+}
+
+.nav-home-icone, 
+.nav-agenda-icone, 
+.nav-speakers-icone, 
+.nav-comochegar-icone,
+.nav-logo-icone {
+  top: 50px;
+  position: absolute;
+  z-index: 12;
+}
+
+.nav-home-icone {
+  margin-left: -12%;
+  width: 50%;
+}
+
+.nav-agenda-icone {
+  margin-left: -3.5%;
+  width: 60%;
+}
+
+.nav-speakers-icone {
+  margin-left: 6%;
+  width: 72.6%;
+}
+
+.nav-comochegar-icone {
+  margin-left: 12%;
+  width: 100%;
+}
+
+.nav-logo-icone {
+  margin-left: 51%;
+  width: 70%;
+  top: 52px;
 }
 
 header .header-image  {
@@ -372,6 +431,10 @@ footer h2, a {
 
 @media screen and (min-width: 1920px) {
 
+  nav {
+    height: 120%; 
+  }
+
   header a {
     top: 680px;
   }  
@@ -419,7 +482,7 @@ footer h2, a {
 
   .comunidades-carousel .comunidade-desc{
     top: -250px;
-    left: 60px;
+    left: 6cccffcccddcdcdcccddff0px;
   }
 
 }
