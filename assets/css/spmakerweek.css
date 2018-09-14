@@ -326,16 +326,16 @@ footer h2, a {
 }
 
 .texto-header-mobile {
-  padding-top: 25px;
-  padding-down: 15px;
+  padding-top: 15%;
+  padding-down: 25%;
   background-color: #0D293C;
   color: #FFF;
-  height: 160px;
+  height: 200px;
   text-align: center;
 }
 
 .texto-header-mobile h2 {
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .inscreva-section-mobile {
