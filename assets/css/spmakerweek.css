@@ -91,9 +91,7 @@ header a {
 .countdown span {
   font-family: 'Roboto Medium', sans-serif;
   font-size: 185px;
-  display: inline-block;
-  vertical-align: middle;
-  line-height: normal;
+  margin-bottom: 15%;
 }
 
 .agenda-section {
