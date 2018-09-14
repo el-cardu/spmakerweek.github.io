@@ -110,7 +110,10 @@ header a {
 
 .botao-agenda-1, .botao-agenda-2, .botao-agenda-3 {
   margin-right: 40px;
+  z-index: 300;
 }
+
+.botao-agenda-4 { z-index: 300; }
 
 .speakers-section {
   background-color: #0D293C;  
