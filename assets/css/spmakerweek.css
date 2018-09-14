@@ -280,12 +280,12 @@ footer h2, a {
   
   .countdown {
     height: 175px;
-    padding-bottom: 15%;
-    padding-top: 10%
+    padding-bottom: 12.5%;
+    padding-top: 12.5%
   }
   
   .countdown span {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   .speakers-carousel .speaker-img {
