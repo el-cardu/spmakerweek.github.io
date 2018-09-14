@@ -289,7 +289,7 @@ footer h2, a {
   }
 
   .speakers-carousel .speaker-img {
-    width: 60%;
+    width: 75%;
     margin: 0 auto;
     left: 0px;
     top: -370px;
@@ -393,9 +393,14 @@ footer h2, a {
   position: relative;
 }
 
+.comunidades-section-mobile {
+  position: relative;
+}
+
 .ver-no-mapa-button-mobile {
-  margin-left: 70px;
-  top: 190px;
+  padding-top: 2%;
+  margin-left: 18%;
+  top: 66.6%;
   position: absolute;
 }
 
@@ -403,7 +408,7 @@ footer h2, a {
   font-size: 18px; 
   top: 140px;
   text-align: left;
-  margin-left: 70px;
+  margin-left: 18%;
   line-height: 20px;
   position: absolute;
 }
@@ -481,7 +486,24 @@ footer h2, a {
 
   .comunidades-carousel .comunidade-desc{
     top: -250px;
-    left: 6cccffcccddcdcdcccddff0px;
+    left: 60px;
   }
+
+}
+
+@media(max-width: 568px) {
+
+  .countdown span {
+    font-size: 30px;
+  }
+
+  .endereco-mobile {
+    font-size: 18px; 
+    top: 50%;
+    text-align: left;
+    margin-left: 18%;
+    line-height: 20px;
+    position: absolute;
+}
 
 }
