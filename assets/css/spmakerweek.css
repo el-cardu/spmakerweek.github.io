@@ -214,6 +214,17 @@ header a {
   z-index: 3;
 }
 
+.call-to-action-image { 
+  position: relative; 
+  z-index: 3;
+}
+
+.inscrever .button {
+  position: absolute;
+  top: -150px;
+  z-index: 4;
+}
+
 .como-chegar .endereco {
   font-size: 18px; 
   top: -300px;
