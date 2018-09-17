@@ -160,7 +160,7 @@ header a {
 
 .speakers-carousel .speaker-desc p {
   font-size: 18px;
-  margin-left: 110px;
+  margin-left: 96px;
   z-index: 3;
 }
 
@@ -343,6 +343,11 @@ footer h2, a {
   padding-top: 15px;
 }
 
+}
+
+.nav-mobile {
+    color: #fff;
+    background-color: #0D293C;
 }
 
 .fa-1x {
