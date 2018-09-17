@@ -292,6 +292,12 @@ footer h2, a {
     overflow-x: hidden;
   }
   
+  header a {
+    position: relative;
+    top: 0%;
+    z-index: 4;
+  }
+
   .countdown {
     height: 175px;
     padding-bottom: 12.5%;
