@@ -160,7 +160,7 @@ header a {
 
 .speakers-carousel .speaker-desc p {
   font-size: 18px;
-  margin-left: 96px;
+  margin-left: 90px;
   z-index: 3;
 }
 
@@ -479,11 +479,17 @@ footer h2, a {
   .speakers-carousel .speaker-img {
     width: 90%;
     margin: 0 auto;
-    left: -60px;
+    left: -40px;
     top: -80px;
     position: relative;
     z-index: 3;
 }
+  
+  .speakers-carousel .speaker-desc p {
+    margin: 0 auto;
+    text-align: center;
+    margin-left: 160px;
+  }
 
   .agenda-section {
     height: 800px; 
@@ -506,10 +512,6 @@ footer h2, a {
   .speakers-section img {
     margin-top: 70px;
     margin-left: 130px; 
-  }
-
-  .speakers-carousel .speaker-desc p {
-    margin-left: 150px;
   }
 
   .comunidades-carousel .comunidade-img {
