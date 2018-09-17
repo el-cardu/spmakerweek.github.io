@@ -345,6 +345,10 @@ footer h2, a {
 
 }
 
+.fa-1x {
+  font-size: 1.5rem;
+}
+
 .texto-header-mobile {
   padding-top: 15%;
   padding-down: 25%;
@@ -462,6 +466,10 @@ footer h2, a {
   header a {
     top: 680px;
   }  
+
+  .countdown span {
+    line-height: 1.75;
+  }
 
   .speakers-carousel .speaker-img {
     width: 90%;
