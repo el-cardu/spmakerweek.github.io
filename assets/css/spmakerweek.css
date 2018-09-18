@@ -66,6 +66,21 @@ nav {
   top: 52px;
 }
 
+.white { 
+  width: 120%;
+  color: #fff; 
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: #fff;
+  margin-left: 3%;
+}
+
+.nav-link { 
+  text-align: left; 
+  color: #fff;
+}
+
 header .header-image  {
   position: relative;
   z-index: 3;
@@ -346,7 +361,6 @@ footer h2, a {
 }
 
 .nav-mobile {
-    color: #fff;
     background-color: #0D293C;
 }
 
