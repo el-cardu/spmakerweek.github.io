@@ -134,7 +134,7 @@ header a {
 
 .speakers-section {
   background-color: #0D293C;  
-  height: 560px; 
+  height: 1450px; 
 }
 
 .speakers-section img {
@@ -154,6 +154,8 @@ header a {
   position: relative;
   z-index: 3;
 }
+
+.speakers-section img { margin-top: 80px; }
 
 .speakers-carousel .speaker-img img {
   border-radius: 150%;
@@ -327,7 +329,7 @@ footer h2, a {
     width: 75%;
     margin: 0 auto;
     left: 0px;
-    top: -370px;
+    top: -400px;
     z-index: 3;
 }
 
@@ -523,8 +525,12 @@ footer h2, a {
     margin-left: 650px;
   }
 
+  .speakers-section {
+    height: 1500px;
+  }
+
   .speakers-section img {
-    margin-top: 70px;
+    margin-top: 90px;
     margin-left: 130px; 
   }
 
