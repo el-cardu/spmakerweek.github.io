@@ -3,7 +3,82 @@ html {
 }
 
 nav {
-  height: 100px; 
+  height: 100%; 
+}
+
+.navbar-default {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  border-color: transparent;
+  background-image: none;
+  box-shadow: none;
+  position: relative;
+  z-index: 5;
+}
+
+.navbar-image {
+  position: relative;
+  z-index: 3;
+}
+
+.navbar-brand img {
+  top: 30px;
+  position: absolute;
+  z-index: 15;
+}
+
+.nav-home-icone, 
+.nav-agenda-icone, 
+.nav-speakers-icone, 
+.nav-comochegar-icone,
+.nav-logo-icone {
+  left: -5%;
+  top: 50px;
+  position: absolute;
+  z-index: 12;
+}
+
+.nav-home-icone {
+  margin-left: -12%;
+  width: 50%;
+}
+
+.nav-agenda-icone {
+  margin-left: -3.5%;
+  width: 60%;
+}
+
+.nav-speakers-icone {
+  margin-left: 6%;
+  width: 72.6%;
+}
+
+.nav-comochegar-icone {
+  margin-left: 12%;
+  width: 100%;
+}
+
+.nav-logo-icone {
+  margin-left: 51%;
+  width: 70%;
+  top: 52px;
+}
+
+.white { 
+  width: 120%;
+  color: #fff; 
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: #fff;
+  margin-left: 3%;
+}
+
+.nav-link { 
+  text-align: left; 
+  color: #fff;
 }
 
 header .header-image  {
@@ -33,9 +108,7 @@ header a {
 .countdown span {
   font-family: 'Roboto Medium', sans-serif;
   font-size: 185px;
-  display: inline-block;
-  vertical-align: middle;
-  line-height: normal;
+  margin-bottom: 15%;
 }
 
 .agenda-section {
@@ -54,11 +127,14 @@ header a {
 
 .botao-agenda-1, .botao-agenda-2, .botao-agenda-3 {
   margin-right: 40px;
+  z-index: 300;
 }
+
+.botao-agenda-4 { z-index: 300; }
 
 .speakers-section {
   background-color: #0D293C;  
-  height: 560px; 
+  height: 1450px; 
 }
 
 .speakers-section img {
@@ -78,6 +154,8 @@ header a {
   position: relative;
   z-index: 3;
 }
+
+.speakers-section img { margin-top: 80px; }
 
 .speakers-carousel .speaker-img img {
   border-radius: 150%;
@@ -99,7 +177,7 @@ header a {
 
 .speakers-carousel .speaker-desc p {
   font-size: 18px;
-  margin-left: 110px;
+  margin-left: 90px;
   z-index: 3;
 }
 
@@ -153,6 +231,17 @@ header a {
   z-index: 3;
 }
 
+.call-to-action-image { 
+  position: relative; 
+  z-index: 3;
+}
+
+.inscrever .button {
+  position: absolute;
+  top: -150px;
+  z-index: 4;
+}
+
 .como-chegar .endereco {
   font-size: 18px; 
   top: -300px;
@@ -183,7 +272,7 @@ footer h2, a {
   color: #FFF;
 }
 
-.logos-footer, .icones {
+.logos-footer {
   width: 50%;
   padding-bottom: 15px;
   padding-top: 15px;
@@ -191,7 +280,7 @@ footer h2, a {
 }
 
 .icones {
-  margin-left: 300px;
+  padding-left: 22%;
 }
 
 .logo-footer-fablab, .logo-footer-its {
@@ -220,21 +309,27 @@ footer h2, a {
     overflow-x: hidden;
   }
   
+  header a {
+    position: relative;
+    top: 0%;
+    z-index: 4;
+  }
+
   .countdown {
     height: 175px;
-    padding-bottom: 15%;
-    padding-top: 10%
+    padding-bottom: 12.5%;
+    padding-top: 12.5%
   }
   
   .countdown span {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   .speakers-carousel .speaker-img {
-    width: 60%;
+    width: 75%;
     margin: 0 auto;
     left: 0px;
-    top: -370px;
+    top: -400px;
     z-index: 3;
 }
 
@@ -243,7 +338,7 @@ footer h2, a {
   }
 
   footer {
-    height: 500px;
+    height: 400px;
   }
 
   footer p, a {
@@ -265,17 +360,27 @@ footer h2, a {
   padding-top: 15px;
 }
 
+}
+
+.nav-mobile {
+    background-color: #0D293C;
+}
+
+.fa-1x {
+  font-size: 1.5rem;
+}
+
 .texto-header-mobile {
-  padding-top: 25px;
-  padding-down: 15px;
+  padding-top: 15%;
+  padding-down: 25%;
   background-color: #0D293C;
   color: #FFF;
-  height: 160px;
+  height: 200px;
   text-align: center;
 }
 
 .texto-header-mobile h2 {
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .inscreva-section-mobile {
@@ -333,9 +438,14 @@ footer h2, a {
   position: relative;
 }
 
+.comunidades-section-mobile {
+  position: relative;
+}
+
 .ver-no-mapa-button-mobile {
-  margin-left: 70px;
-  top: 190px;
+  padding-top: 2%;
+  margin-left: 18%;
+  top: 66.6%;
   position: absolute;
 }
 
@@ -343,7 +453,7 @@ footer h2, a {
   font-size: 18px; 
   top: 140px;
   text-align: left;
-  margin-left: 70px;
+  margin-left: 18%;
   line-height: 20px;
   position: absolute;
 }
@@ -368,14 +478,37 @@ footer h2, a {
 
 /* large screens stuff */
 
-@media(min-width: 1920px) {
+@media screen and (min-width: 1920px) {
+
+  nav {
+    height: 120%; 
+  }
 
   header a {
     top: 680px;
   }  
 
+  .countdown span {
+    line-height: 1.75;
+  }
+
+  .speakers-carousel .speaker-img {
+    width: 90%;
+    margin: 0 auto;
+    left: -40px;
+    top: -80px;
+    position: relative;
+    z-index: 3;
+}
+  
+  .speakers-carousel .speaker-desc p {
+    margin: 0 auto;
+    text-align: center;
+    margin-left: 160px;
+  }
+
   .agenda-section {
-    height: 700px; 
+    height: 800px; 
     position: relative;
   }
 
@@ -385,18 +518,47 @@ footer h2, a {
   }
 
   .icones {
-    margin-left: 450px;
+    padding-left: 415px;
   }
 
   .logos-footer {
-    margin-left: 800px;
+    margin-left: 650px;
+  }
+
+  .speakers-section {
+    height: 1500px;
   }
 
   .speakers-section img {
-    margin-top: 70px;
-    margin-left: 120px; 
-    width: 350px;
-    height: 120px; 
+    margin-top: 90px;
+    margin-left: 130px; 
   }
+
+  .comunidades-carousel .comunidade-img {
+    top: -450px;
+    left: 100px;
+  }
+
+  .comunidades-carousel .comunidade-desc{
+    top: -250px;
+    left: 60px;
+  }
+
+}
+
+@media(max-width: 568px) {
+
+  .countdown span {
+    font-size: 30px;
+  }
+
+  .endereco-mobile {
+    font-size: 18px; 
+    top: 50%;
+    text-align: left;
+    margin-left: 18%;
+    line-height: 20px;
+    position: absolute;
+}
 
 }

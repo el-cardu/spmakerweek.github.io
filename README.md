@@ -8,7 +8,7 @@
 
 ---
 
-### how-to-run local
+### utilizando localmente
 
 1. Certifique-se que você tem instalado na sua máquina:
 	- [Any CLI/Git](https://git-for-windows.github.io/)

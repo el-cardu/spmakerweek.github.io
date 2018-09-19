@@ -4,6 +4,16 @@
 
     <title>SP MakerWeek 18</title>
 
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125842397-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-125842397-1');
+    </script>
+    <!--/ Google Analytics -->
+
     <!-- META -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta charset="utf-8">
@@ -16,10 +26,11 @@
     <meta name="keywords" content="sp maker week, maker, fablab, tecnologia, makerweek">
     
     <meta property="og:url" content="https://fablablivresp.github.io/spmakerweek"> 
-    <meta property="og:title" content="SP Makerweek 2018">
+    <meta property="og:title" content="SP MakerWeek 2018">
     <meta property="og:type" content="Website">
     <meta property="og:locale" content="pt_BR">    
     <meta property="og:description" content="Uma semana inteira para falar sobre fabricação digital, cultura maker, transformação social, tecnologia e diversidade."> 
+    <!--/ META -->
 
     <link rel="icon" type="image/png" href="favicon.png">
 
@@ -27,6 +38,7 @@
     <!-- Custom JS for this template -->
     <script src="assets/js/countdown.js"></script>
     <script src="assets/js/map.js"></script>
+    <!--/ Scripts -->
 
     <!-- Stylesheets -->
     <!-- Bootstrap Core CSS -->
@@ -36,19 +48,40 @@
     <!-- Custom fonts for this template -->
     <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet"> 
+    <!--/ Stylesheets-->
 
 </head>
 
 <body>
 
-    <!-- Nav Web
-    <nav class="d-none d-lg-block  navbar navbar-expand-lg navbar-light navbar-transparent navbar-fixed-top bg-light">
+    <!-- Nav Web -->
+    <nav class="d-none d-lg-block  navbar navbar-expand-lg navbar-default navbar-fixed-top">
+        <img src="./assets/img/navbar-background.png" class="d-none d-lg-block navbar-image img-fluid" alt="Background com textura hexagonal">
+        <div class="container-fluid">
+            <div class="navbar-header row">
+                <a class="navbar-brand nav-home-icone" href="#">
+                    <img width="20%" src="./assets/img/nav-home.png">
+                </a>
+               <a class="navbar-brand nav-agenda-icone" href="#agenda-section">
+                    <img width="20%" src="./assets/img/nav-agenda.png">
+                </a>
+                <a class="navbar-brand nav-speakers-icone" href="#speakers-section">
+                    <img width="20%" src="./assets/img/nav-speakers.png">
+                </a>
+                <a class="navbar-brand nav-comochegar-icone" href="#mapa-section">
+                    <img width="20%" src="./assets/img/nav-comochegar.png">
+                </a>
+                <a class="navbar-brand nav-logo-icone" href="#">
+                    <img width="20%" src="./assets/img/nav-logo.png">
+                </a>
+            </div>
+        </div>
     </nav> 
     <!--/ Nav Web -->
 
     <!-- Header Web -->
-    <header>
-        <img src="./assets/img/spmw-section.png" class="d-none d-lg-block header-image img-fluid" alt="Background com textura hexagonal, constando em caixa alta, #SPMW 2018">
+    <header class="d-none d-lg-block">
+        <img src="./assets/img/spmw-section.png"  class="header-image img-fluid" alt="Background com textura hexagonal, constando em caixa alta, #SPMW 2018">
         <div class="row">
             <div class="col-lg-2"></div> 
             <div class="description col-lg-5"> 
@@ -66,12 +99,33 @@
     <!--/ Header Web -->
 
     <!-- Header/Logo Mobile -->
-    <header id="logo-header-mobile" class="d-block d-lg-none d-xl-none logo-header-mobile container-fluid">
-        <img src="./assets/img/header-logo-mobile.png" class="img-fluid" alt="Background com textura hexagonal, constando o logo do SPMW">
+    <header id="logo-header-mobile" class="d-block d-lg-none d-xl-none logo-header-mobile-spmw container-fluid">
+        <a href="index.html">
+            <img src="./assets/img/header-logo-mobile.png" class="img-fluid" alt="Background com textura hexagonal, constando o logo do SPMW">
+        </a>
     </header>
     <!--/ Header/Logo Mobile -->
 
     <!-- Nav Mobile -->
+    <nav class="d-block d-lg-none d-xl-none navbar navbar-light navbar-expand-lg navbar-1 nav-mobile container-fluid">
+        <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#menuMobileContent" aria-controls="menuMobileContent" aria-expanded="false" arial-label="Toggle navigation"><span class="white"><i class="fa fa-bars white"></i></span></button>
+        <div class="collapse navbar-collapse white" id="menuMobileContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link texto" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link " href="index.html#agenda-mobile">AGENDA</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html#speakers-mobile">SPEAKERS</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html#mapa-section-mobile">COMO CHEGAR</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <!--/ Nav Mobile -->
 
     <!-- Header SMPW Mobile -->
@@ -117,49 +171,6 @@
     </section> 
     <!--/ Atividades Web -->
 
-    <!-- Atividades Mobile
-    <section id="atividades-mobile" class="d-block d-lg-none d-xl-none atividades-section-mobile">
-        <div id="accordion">
-            <div class="card">
-                <div class="card-header" id="headingOne">
-                    <h5 class="">
-                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Collapsible Group Item #1</button>
-                    </h5>
-            </div>
-            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                </div>
-            </div>
-        </div>
-            <div class="card">
-                <div class="card-header" id="headingTwo">
-                    <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Collapsible Group Item #2 </button>
-                    </h5>
-                </div>
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                    <div class="card-body">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="headingThree">
-                    <h5 class>
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Collapsible Group Item #3</button></h5>
-                </div>
-            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                </div>
-            </div>
-            </div>
-        </div>
-    </section>
-   Atividades Mobile -->
-
     <!-- Agenda Web -->
     <section id="agenda-section" class="d-none d-lg-block agenda-section">
         <div class="agenda-image">
@@ -168,16 +179,24 @@
         <div class="row agenda-botoes">
             <div class="col-md-2 col-lg-2"></div>
             <div class="col-lg-2 botao-agenda-1">
-                <a href="./agenda.html"><img width="250px" src="assets/img/botao-agenda-1.png" alt="Agenda: Dia 26 de Setembro de 2018"></a>
+                <a href="agenda.html#agenda-um-section">
+                    <img width="250px" src="assets/img/botao-agenda-1.png" alt="Agenda: Dia 26 de Setembro de 2018">
+                </a>
             </div>
             <div class="col-lg-2 botao-agenda-2">
-                <a href="./agenda.html"><img width="250px" src="assets/img/botao-agenda-2.png" alt="Agenda: Dia 27 de Setembro de 2018"></a>
+                <a href="agenda.html#agenda-dois-section">
+                    <img width="250px" src="assets/img/botao-agenda-2.png" alt="Agenda: Dia 27 de Setembro de 2018">
+                </a>
             </div>
             <div class="col-lg-2 botao-agenda-3">
-                <a href="./agenda.html"><img width="250px" src="assets/img/botao-agenda-3.png" alt="Agenda: Dia 28 de Setembro de 2018"></a>
+                <a href="agenda.html#agenda-tres-section">
+                    <img width="250px" src="assets/img/botao-agenda-3.png" alt="Agenda: Dia 28 de Setembro de 2018">
+                </a>
             </div>
             <div class="col-lg-2 botao-agenda-4">
-                <a href="./agenda.html"><img width="250px" src="assets/img/botao-agenda-4.png" alt="Agenda: Dia 29 de Setembro de 2018"></a>
+                <a href="agenda.html#agenda-quatro-section">
+                    <img width="250px" src="assets/img/botao-agenda-4.png" alt="Agenda: Dia 29 de Setembro de 2018">
+                </a>
             </div>
         </div>
     </section>   
@@ -191,16 +210,24 @@
             <div class="row agenda-botoes">
                 <div class="col-md-2 col-lg-2"></div>
                 <div class="col-lg-2 botao-agenda-mobile-1">
-                    <a href="#"><img width="100px" src="assets/img/botao-agenda-1.png" alt="Agenda: Dia 26 de Setembro de 2018"></a>
+                    <a href="agenda.html#agenda-um-section-mobile">
+                        <img width="100px" src="assets/img/botao-agenda-1.png" alt="Agenda: Dia 26 de Setembro de 2018">
+                    </a>
                 </div>
                 <div class="col-lg-2 botao-agenda-mobile-2">
-                    <a href="#"><img width="100px" src="assets/img/botao-agenda-2.png" alt="Agenda: Dia 27 de Setembro de 2018"></a>
+                    <a href="agenda.html#agenda-dois-section-mobile">
+                        <img width="100px" src="assets/img/botao-agenda-2.png" alt="Agenda: Dia 27 de Setembro de 2018">
+                    </a>
                 </div>
                 <div class="col-lg-2 botao-agenda-mobile-3">
-                    <a href="#"><img width="100px" src="assets/img/botao-agenda-3.png" alt="Agenda: Dia 28 de Setembro de 2018"></a>
+                    <a href="agenda.html#agenda-tres-section-mobile">
+                        <img width="100px" src="assets/img/botao-agenda-3.png" alt="Agenda: Dia 28 de Setembro de 2018">
+                    </a>
                 </div>
                 <div class="col-lg-2 botao-agenda-mobile-4">
-                    <a href="#"><img width="100px" src="assets/img/botao-agenda-4.png" alt="Agenda: Dia 29 de Setembro de 2018"></a>
+                    <a href="agenda.html#agenda-quatro-section-mobile">
+                        <img width="100px" src="assets/img/botao-agenda-4.png" alt="Agenda: Dia 29 de Setembro de 2018">
+                    </a>
                 </div> 
         </div>
     </section>
@@ -215,38 +242,127 @@
             <div class="speakers-carousel" id="speakers-carousel">
                 <div class="container">
                     <div class="row">
+                       <div class="col-md-3 speaker">
+                         <div class="speaker-img">
+                            <img src="assets/img/samanta-lopes.jpg">
+                         </div>
+                         <div class="speaker-desc">
+                           <p>Samanta Lopes</p>
+                         </div>
+                       </div>
+                       <div class="col-md-3 speaker">
+                          <div class="speaker-img">
+                            <img src="assets/img/diana-santos.jpg">
+                          </div>
+                          <div class="speaker-desc">
+                            <p>Diana Santos</p>
+                          </div>
+                        </div>
+                        <div class="col-md-3 speaker">
+                         <div class="speaker-img">
+                            <img src="assets/img/mariana-pavan.jpg">
+                         </div>
+                         <div class="speaker-desc">
+                           <p>Mariana Pavan</p>
+                         </div>
+                        </div>
+                     <div class="col-md-3 speaker">
+                        <div class="speaker-img">
+                            <img src="assets/img/paulo-mainardi.png">
+                        </div>
+                        <div class="speaker-desc">
+                            <p>Paulo Mainardi</p>
+                        </div>
+                    </div>
+                    <div class="container">
+                      <div class="row">
                         <div class="col-md-3 speaker">
                             <div class="speaker-img">
-                                <img src="http://gelevanog.com/bevent/min/assets/img/speakers/1.jpg">
+                                <img src="assets/img/artur-cordeiro.jpg">
                             </div>
                             <div class="speaker-desc">
-                                <p>Nome<br>WHOAMI</p>
+                                <p>Artur Cordeiro</p>
                             </div>
+                        </div>
+                        <div class="col-md-3 speaker">
+                            <div class="speaker-img">
+                                <img src="assets/img/cicero-henrique.jpg">
+                            </div>
+                            <div class="speaker-desc">
+                                <p>Cícero Henrique</p>
+                            </div>
+                       </div>
+                       <div class="col-md-3 speaker">
+                         <div class="speaker-img">
+                            <img src="assets/img/daniel-annenberg.jpg">
+                         </div>
+                         <div class="speaker-desc">
+                           <p>Daniel Annenberg</p>
+                         </div>
                         </div>
                         <div class="col-md-3 speaker">
                         <div class="speaker-img">
-                            <img src="http://gelevanog.com/bevent/min/assets/img/speakers/1.jpg">
+                            <img src="assets/img/paschon.png">
                         </div>
                         <div class="speaker-desc">
-                            <p>Nome<br>WHOAMI</p>
+                            <p>Danilo Paschon</p>
                         </div>
+                       </div>
+                      </div>
+                      <div class="container">
+                      <div class="row">
+                        <div class="col-md-3 speaker">
+                            <div class="speaker-img">
+                                <img src="assets/img/fabio-souza.jpg">
+                            </div>
+                            <div class="speaker-desc">
+                                <p>Fábio Souza</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 speaker">
+                            <div class="speaker-img">
+                                <img src="assets/img/igor-vac.jpg">
+                            </div>
+                            <div class="speaker-desc">
+                                <p> Igor Vac</p>
+                            </div>
+                       </div>
+                        <div class="col-md-3 speaker">
+                          <div class="speaker-img">
+                            <img src="assets/img/isaque-criscuolo.jpg">
+                          </div>
+                          <div class="speaker-desc">
+                            <p>Isaque Criscuolo</p>
+                          </div>
                        </div>
                        <div class="col-md-3 speaker">
                             <div class="speaker-img">
-                                <img src="http://gelevanog.com/bevent/min/assets/img/speakers/1.jpg">
+                                <img src="assets/img/bruno-silveira.png">
                             </div>
                             <div class="speaker-desc">
-                                <p>Nome<br>WHOAMI</p>
+                                <p>Bruno Silveira</p>
                             </div>
                          </div>
-                     <div class="col-md-3 speaker">
-                        <div class="speaker-img">
-                            <img src="http://gelevanog.com/bevent/min/assets/img/speakers/1.jpg">
+                     <div class="container">
+                      <div class="row">
+                        <div class="col-md-3 speaker">
+                            <div class="speaker-img">
+                                <img src="assets/img/mauricio-jabur.jpg">
+                            </div>
+                            <div class="speaker-desc">
+                                <p>Maurício Jabur</p>
+                            </div>
                         </div>
-                        <div class="speaker-desc">
-                            <p>Nome<br>WHOAMI</p>
+                        <div class="col-md-3 speaker">
+                            <div class="speaker-img">
+                                <img src="assets/img/kominami.png">
+                            </div>
+                            <div class="speaker-desc">
+                                <p>Gui Kominami</p>
+                            </div>
                         </div>
                     </div>
+                 </div>
                 </div>  
             </div>
           </div>
@@ -267,10 +383,16 @@
                     <div class="row">
                         <div class="col-md-3 speaker">
                             <div class="speaker-img">
-                                <img src="http://gelevanog.com/bevent/min/assets/img/speakers/1.jpg">
+                                <img src="assets/img/kominami.png">
+                            </div> <!--
+                            <div class="speaker-img">
+                                <img src="assets/img/palestrante-dois.png">
                             </div>
-                            <div class="speaker-desc">
-                                <p>Nome<br>WHOAMI</p>
+                            <div class="speaker-img">
+                                <img src="assets/img/palestrante-tres.png">
+                            </div>
+                            <div class="speaker-img">
+                                <img src="assets/img/palestrante-quatro.png"> -->
                             </div>
                         </div>
                     </div>
@@ -291,34 +413,34 @@
                     <div class="row">
                         <div class="col-md-3 comunidade">
                             <div class="comunidade-img">
-                                <img src="http://gelevanog.com/bevent/min/assets/img/speakers/1.jpg">
+                                <img src="assets/img/cyber-educa.png">
                             </div>
                             <div class="comunidade-desc">
-                                <p>Nome<br>WHOAMI</p>
+                                <p>Cyber Educa</p>
                             </div>
                         </div>
                         <div class="col-md-3 speaker">
                         <div class="comunidade-img">
-                            <img src="http://gelevanog.com/bevent/min/assets/img/speakers/1.jpg">
+                            <img src="assets/img/hardware-livre.png">
                         </div>
                         <div class="comunidade-desc">
-                            <p>Nome<br>WHOAMI</p>
+                            <p>Hardware Livre USP</p>
                         </div>
                        </div>
                        <div class="col-md-3 speaker">
                             <div class="comunidade-img">
-                                <img src="http://gelevanog.com/bevent/min/assets/img/speakers/1.jpg">
+                                <img src="assets/img/mau-maker.jpg">
                             </div>
                             <div class="comunidade-desc">
-                                <p>Nome<br>WHOAMI</p>
+                                <p> Mau Maker</p>
                             </div>
                          </div>
                      <div class="col-md-3 speaker">
                         <div class="comunidade-img">
-                            <img src="http://gelevanog.com/bevent/min/assets/img/speakers/1.jpg">
+                            <img src="assets/img/mirante-lab.png">
                         </div>
                         <div class="comunidade-desc">
-                            <p>Nome<br>WHOAMI</p>
+                            <p>MiranteLab</p>
                         </div>
                     </div>
                 </div>  
@@ -329,7 +451,7 @@
     <!--/ Comunidades Web -->
 
     <!-- Comunidades Mobile -->
-    <section id="mapa-section-mobile" class="d-block d-lg-none d-xl-none mapa-section-mobile container-fluid">
+    <section id="comunidades-section-mobile" class="d-block d-lg-none d-xl-none comunidades-section-mobile container-fluid">
         <img src="./assets/img/comunidades-section-mobile.png" class="img-fluid" alt="Background com textura hexagonal. Seção como chegar na SP MakerWeek.">
     </section>
     <!--/ Comunidades Mobile -->
@@ -346,8 +468,7 @@
                 <p>São Paulo - SP</p>
                 <p>01322-010</p>
             </div>
-            <div class="col-lg-1"></div>
-            <div class="map col-lg-3" id="map"></div>
+            <div class="map col-lg-5" id="map"></div>
             <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC64h5aSIxgQIhhca7rzDQaErgarB7-Yx8&callback=initMap" async defer></script>
         </div>
     </section>
@@ -383,17 +504,50 @@
     </section>
     <!--/ Apoio Mobile -->
 
+    <!-- Call to Action Web -->
+    <section class="d-none d-lg-block container-fluid">
+        <div class="call-to-action-image">
+            <img src="./assets/img/call-to-action.png" class="d-none d-lg-block img-fluid" alt="Background com textura hexagonal, constando em caixa alta o ciclo: aprender, fazer e compartilhar">
+        </div>
+        <div class="row">
+        <div class="col-lg-7"></div> 
+        <div class="col-lg-4 inscrever">
+            <a class="button" href="https://www.sympla.com.br/sp-makerweek-2018__355574" target="_blank" id="inscreva"><img class="img-fluid" width="280" height="84" src="./assets/img/inscrevase.png"></a>
+        </div>
+        </div>
+    </section> 
+    <!--/ Call to Action Web -->
+
+    <!-- Call to Action - Mobile -->
+    <section id="call-to-action-mobile" class="d-block d-lg-none d-xl-none">
+        <div class="call-to-action-mobile-image" >
+            <img class="img-fluid" src="./assets/img/call-to-action-mobile.png" alt="Background com textura hexagonal, constando em caixa alta o ciclo: aprender, fazer e compartilhar">
+        </div>
+    </section>
+    <!--/ Call to Action - Mobile -->
+
+    <!-- Call to Action - Inscreva-se - Mobile -->
+    <section id="inscreva-mobile" class="d-block d-lg-none d-xl-none inscreva-section-mobile">
+        <div class="fundo-inscrever-mobile">
+            <img src="./assets/img/fundo-inscrever-mobile.png" class="img-fluid" alt="">
+        </div>
+        <div class="inscreva-mobile-image">
+            <a href="https://www.sympla.com.br/sp-makerweek-2018__355574" target="_blank" id="inscreva"><img class="img-fluid" src="./assets/img/inscrevase.png"></a>
+        </div>
+    </section>   
+    <!--/ Call to Action - Inscreva-se - Mobile -->
+
     <!-- Footer Web -->
     <footer class="d-none d-lg-block footer-section">
      <div class="icones center-align">
          <ul class="icones list-inline mb-0">
              <li class="list-inline-item mr-3">
-                 <a href="https://facebook.com/spmakerweek/">
+                 <a href="https://facebook.com/fablablivresp/?ref=br_rs">
                      <i class="fa fa-facebook fa-2x fa-fw"></i>
                  </a>
              </li>
              <li class="list-inline-item">
-                 <a href="https://www.instagram.com/spmakerweek/">
+                 <a href="https://www.instagram.com/fablablivresp/?hl=pt-br">
                      <i class="fa fa-instagram fa-2x fa-fw"></i>
                  </a>
              </li>
@@ -421,7 +575,7 @@
         <div class="icones-mobile center-align">
             <ul class="icones-mobile list-inline mb-0">
                 <li class="list-inline-item mr-3">
-                    <a href="#">
+                    <a href="https://facebook.com/fablablivresp/?ref=br_rs">
                         <i class="fa fa-facebook fa-2x fa-fw"></i>
                     </a>
                 </li>

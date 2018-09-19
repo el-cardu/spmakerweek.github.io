@@ -18,7 +18,7 @@ var x = setInterval(function() {
   document.getElementById("countdown").innerHTML = days + " : " + hours + " : "
   + minutes + " : " + seconds;
 
-  // If the count down is finished, write some text
+  // If the countdown is finished, write some text
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("countdown").innerHTML = "É HOJE";
