@@ -238,17 +238,23 @@
         <div class="speakers">
             <img width="280px" height="90px" src="assets/img/speakers-section.png" alt="Background azul escuro. Seção com os palestrantes que participarão da SP MakerWeek">
         </div>
-        <div class="container">
-            <div class="speakers-carousel" id="speakers-carousel">
-                <div class="container">
-                    <div class="row">
-                       <div class="col-md-3 speaker">
-                         <div class="speaker-img">
+        <div class="container-fluid"> 
+            <div class="row">
+              <div class="col-md-12">
+
+                <div id="Carousel" class="carousel">
+              
+                  <div class="carousel-inner speakers-carousel" id="speakers-carousel">
+                
+                    <div class="carousel-item active">
+                      <div class="row">
+                        <div class="col-md-3 speaker">
+                          <div class="speaker-img">
                             <img src="assets/img/samanta-lopes.jpg">
-                         </div>
-                         <div class="speaker-desc">
+                          </div>
+                          <div class="speaker-desc">
                            <p>Samanta Lopes</p>
-                         </div>
+                          </div>
                        </div>
                        <div class="col-md-3 speaker">
                           <div class="speaker-img">
@@ -266,7 +272,7 @@
                            <p>Mariana Pavan</p>
                          </div>
                         </div>
-                     <div class="col-md-3 speaker">
+                        <div class="col-md-3 speaker">
                         <div class="speaker-img">
                             <img src="assets/img/paulo-mainardi.png">
                         </div>
@@ -274,7 +280,10 @@
                             <p>Paulo Mainardi</p>
                         </div>
                     </div>
-                    <div class="container">
+                      </div>
+                    </div>
+
+                    <div class="carousel-item">
                       <div class="row">
                         <div class="col-md-3 speaker">
                             <div class="speaker-img">
@@ -309,9 +318,11 @@
                         </div>
                        </div>
                       </div>
-                      <div class="container">
+                    </div>
+
+                    <div class="carousel-item">
                       <div class="row">
-                        <div class="col-md-3 speaker">
+                    <div class="col-md-3 speaker">
                             <div class="speaker-img">
                                 <img src="assets/img/fabio-souza.jpg">
                             </div>
@@ -343,9 +354,12 @@
                                 <p>Bruno Silveira</p>
                             </div>
                          </div>
-                     <div class="container">
-                      <div class="row">
-                        <div class="col-md-3 speaker">
+                       </div>
+                     </div>
+
+                      <div class="carousel-item">
+                        <div class="row">
+                          <div class="col-md-3 speaker">
                             <div class="speaker-img">
                                 <img src="assets/img/mauricio-jabur.jpg">
                             </div>
@@ -361,14 +375,25 @@
                                 <p>Gui Kominami</p>
                             </div>
                         </div>
+                      </div>
                     </div>
-                 </div>
-                </div>  
+
+
+                    </div>
+
+                    <a data-slide="prev" href="#Carousel" class="left carousel-control"><</a>
+                    <a data-slide="next" href="#Carousel" class="right carousel-control">></a> 
+
+                  </div>
+                </div>
+              </div>
+            </div>
             </div>
           </div>
         </div>        
     </section> 
     <!--/ Speakers Web -->
+
 
     <!-- Speakers Mobile -->
     <section id="speakers-mobile" class="d-block d-lg-none d-xl-none speakers-section-mobile container-fluid">
@@ -609,6 +634,14 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+    $(document).ready(function() {
+      $('#Carousel').carousel({
+        interval: 3000
+      })
+    });
+    </script>
 
 </body>
 
