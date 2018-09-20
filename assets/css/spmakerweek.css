@@ -146,10 +146,14 @@ header a {
   padding: 60px 0;
 }
 
+.speakers-section  .speakers-carousel .left {
+  font-size: 40px;
+  height: 40px;
+}
+
 .speakers-carousel .speaker-img {
-  width: 80%;
-  margin: 0 auto;
-  left: -60px;
+  width: 70%;
+  left: -16%;
   top: -80px;
   position: relative;
   z-index: 3;
@@ -178,8 +182,22 @@ header a {
 .speakers-carousel .speaker-desc p {
   font-size: 18px;
   margin-top: 30px; 
-  margin-left: 110px;
+  margin-left: 90px;
   z-index: 3;
+}
+
+.speakers-carousel .col-md-3 {
+  padding-left: 15px;
+} 
+ 
+#left-controller, #right-controller {
+  font-size: 40px;
+  top: 140px;
+  position: absolute;
+}
+
+#right-controller {
+  left: 98%;
 }
 
 .comunidades-image {
@@ -266,7 +284,7 @@ footer {
   height: 380px; 
 }
 
-footer h2, a {
+footer > h2, a {
   top: 100px;
   font-size: 18px;
   text-align: center;
@@ -500,16 +518,11 @@ footer h2, a {
 
   .speakers-carousel .speaker-img {
     width: 65%;
-    margin: 0 auto;
-    left: -40px;
     top: -80px;
     position: relative;
     z-index: 3;
 }
 
-  .speakers-carousel .speaker-img img {
-    margin-left: 10px;
-  }
   
   .speakers-carousel .speaker-desc p {
     margin: 0 auto;
