@@ -394,7 +394,6 @@
     </section> 
     <!--/ Speakers Web -->
 
-
     <!-- Speakers Mobile -->
     <section id="speakers-mobile" class="d-block d-lg-none d-xl-none speakers-section-mobile container-fluid">
         <div class="speakers-section-mobile">
@@ -402,26 +401,26 @@
                 <img src="./assets/img/speakers-mobile.png"  width="40%" alt="Background azul escuro. Seção com os palestrantes que participarão da SP MakerWeek.">  
             </div>
         </div>
-        <div class="container">
-            <div class="speakers-carousel" id="speakers-carousel">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-3 speaker">
-                            <div class="speaker-img">
-                                <img src="assets/img/kominami.png">
-                            </div> <!--
-                            <div class="speaker-img">
-                                <img src="assets/img/palestrante-dois.png">
+        <div class="container-fluid speaker-mobile-carousel">
+          <div class="row">
+            <div class="col-md-3">
+              <div id="CarouselSpeakersMobile" class="carousel">
+                <div class="speakers-carousel" id="speakers-carousel">
+                    <div class="carousel-inner speakers-carousel">
+                      <div class="carousel-inner active">
+                        <div class="row">
+                            <div class="col-md-3 speaker">
+                                <div class="speaker-img">
+                                    <img src="assets/img/samanta-lopes.jpg">
+                                </div>
                             </div>
-                            <div class="speaker-img">
-                                <img src="assets/img/palestrante-tres.png">
-                            </div>
-                            <div class="speaker-img">
-                                <img src="assets/img/palestrante-quatro.png"> -->
-                            </div>
-                        </div>
+                         </div>
+                      </div>
+                      </div>
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
         </div>
     </section>
@@ -634,14 +633,7 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <script>
-    $(document).ready(function() {
-      $('#Carousel').carousel({
-        interval: 3000
-      })
-    });
-    </script>
+    <script src="assets/js/carousel.js"></script>
 
 </body>
 

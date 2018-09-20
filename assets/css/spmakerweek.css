@@ -430,6 +430,11 @@ footer h2, a {
   margin-left: 20px;
 }
 
+.speaker-mobile-carousel {
+  padding-top: -50px;
+  position: absolute;
+}
+
 .speakers-section-mobile {
   height: 484px;  
   background-color: #0D293C;
