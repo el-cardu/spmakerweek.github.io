@@ -354,8 +354,19 @@ footer > h2, a {
 }
 
   .speakers-carousel .speakers-desc {
-    top: -90px;
+    top: -180px;
   }
+
+  #left-controller, #right-controller {
+    font-size: 40px;
+    top: -250px;
+    position: absolute;
+    text-decoration: none;
+}
+
+#right-controller {
+  left: 87%;
+}
 
   footer {
     height: 400px;
