@@ -467,6 +467,7 @@ footer > h2, a {
   top: 150px;
   padding-right: 10px;
   position: absolute;
+  z-index: 99;
 }
 
 .botao-agenda-mobile-1,
@@ -484,6 +485,7 @@ footer > h2, a {
   top: 280px;
   padding-right: 10px;
   position: absolute;
+  z-index: 99;
 }
 
 .agenda-section-mobile-button, .speakers-section-mobile-button {
