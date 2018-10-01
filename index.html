@@ -23,12 +23,13 @@
     <meta name="robots" content="index, follow">
     <meta name="googlebot" content="index, follow">
     <meta name="rating" content="General">    
-    <meta name="keywords" content="sp maker week, maker, fablab, tecnologia, makerweek">
-    
+    <meta name="keywords" content="sp maker week, maker, fablab, tecnologia, makerweek">    
     <meta property="og:url" content="https://fablablivresp.github.io/spmakerweek"> 
     <meta property="og:title" content="SP MakerWeek 2018">
-    <meta property="og:type" content="Website">
     <meta property="og:locale" content="pt_BR">    
+    <meta property="og:image" content="https://i.imgur.com/t8B4gse.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:type" content="image/jpeg">
     <meta property="og:description" content="Uma semana inteira para falar sobre fabricação digital, cultura maker, transformação social, tecnologia e diversidade."> 
     <!--/ META -->
 
@@ -238,17 +239,60 @@
         <div class="speakers">
             <img width="280px" height="90px" src="assets/img/speakers-section.png" alt="Background azul escuro. Seção com os palestrantes que participarão da SP MakerWeek">
         </div>
-        <div class="container">
-            <div class="speakers-carousel" id="speakers-carousel">
-                <div class="container">
-                    <div class="row">
+        <div class="container-fluid"> 
+            <div class="row">
+              <div class="col-md-12">
+
+                <div id="Carousel" class="carousel">
+              
+                  <div class="carousel-inner speakers-carousel" id="speakers-carousel">
+        
+                    <div class="carousel-item active">
+                      <div class="row">
+                        <div class="col-md-3 speaker">
+                            <div class="speaker-img">
+                                <img src="assets/img/fabiano.jpg">
+                            </div>
+                            <div class="speaker-desc">
+                                <p>Fabiano Martucci</p>
+                            </div>
+                        </div>
                        <div class="col-md-3 speaker">
                          <div class="speaker-img">
-                            <img src="assets/img/samanta-lopes.jpg">
+                            <img src="assets/img/amadeu.jpg">
                          </div>
                          <div class="speaker-desc">
-                           <p>Samanta Lopes</p>
+                           <p>Sérgio Amadeu</p>
                          </div>
+                        </div>
+                        <div class="col-md-3 speaker">
+                            <div class="speaker-img">
+                                <img src="assets/img/flavia.jpg">
+                            </div>
+                            <div class="speaker-desc">
+                                <p>Flávia Lefevre</p>
+                            </div>
+                       </div>
+                       <div class="col-md-3 speaker">
+                         <div class="speaker-img">
+                            <img src="assets/img/suellen.jpg">
+                         </div>
+                         <div class="speaker-desc">
+                           <p>Suellen Fialho</p>
+                         </div>
+                        </div>
+                      </div>
+                    </div>
+                        
+                    <div class="carousel-item">
+                      <div class="row">
+                        <div class="col-md-3 speaker">
+                          <div class="speaker-img">
+                            <img src="assets/img/samanta-lopes.jpg">
+                          </div>
+                          <div class="speaker-desc">
+                             <p>Samanta Lopes</p>
+                          </div>
                        </div>
                        <div class="col-md-3 speaker">
                           <div class="speaker-img">
@@ -266,15 +310,18 @@
                            <p>Mariana Pavan</p>
                          </div>
                         </div>
-                     <div class="col-md-3 speaker">
+                        <div class="col-md-3 speaker">
                         <div class="speaker-img">
                             <img src="assets/img/paulo-mainardi.png">
                         </div>
                         <div class="speaker-desc">
                             <p>Paulo Mainardi</p>
                         </div>
+                        </div>
+                      </div>
                     </div>
-                    <div class="container">
+
+                    <div class="carousel-item">
                       <div class="row">
                         <div class="col-md-3 speaker">
                             <div class="speaker-img">
@@ -309,9 +356,12 @@
                         </div>
                        </div>
                       </div>
-                      <div class="container">
+                    </div>
+
+
+                    <div class="carousel-item">
                       <div class="row">
-                        <div class="col-md-3 speaker">
+                    <div class="col-md-3 speaker">
                             <div class="speaker-img">
                                 <img src="assets/img/fabio-souza.jpg">
                             </div>
@@ -343,9 +393,12 @@
                                 <p>Bruno Silveira</p>
                             </div>
                          </div>
-                     <div class="container">
-                      <div class="row">
-                        <div class="col-md-3 speaker">
+                       </div>
+                     </div>
+
+                      <div class="carousel-item">
+                        <div class="row">
+                          <div class="col-md-3 speaker">
                             <div class="speaker-img">
                                 <img src="assets/img/mauricio-jabur.jpg">
                             </div>
@@ -361,9 +414,35 @@
                                 <p>Gui Kominami</p>
                             </div>
                         </div>
+                        <div class="col-md-3 speaker">
+                            <div class="speaker-img">
+                                <img src="assets/img/mayra-torres.png">
+                            </div>
+                            <div class="speaker-desc">
+                                <p>Mayra Torres</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 speaker">
+                            <div class="speaker-img">
+                                <img src="assets/img/amanda-pellini.png">
+                            </div>
+                            <div class="speaker-desc">
+                                <p>Amanda Pellini</p>
+                            </div>
+                        </div>
+                      </div>
                     </div>
-                 </div>
-                </div>  
+
+
+                    </div>
+
+                    <a data-slide="prev" href="#Carousel" id="left-controller" class="left carousel-control"><</a>
+                    <a data-slide="next" href="#Carousel" id="right-controller" class="right carousel-control">></a> 
+
+                  </div>
+                </div>
+              </div>
+            </div>
             </div>
           </div>
         </div>        
@@ -376,27 +455,247 @@
             <div class="speakers-section-mobile-button">
                 <img src="./assets/img/speakers-mobile.png"  width="40%" alt="Background azul escuro. Seção com os palestrantes que participarão da SP MakerWeek.">  
             </div>
-        </div>
-        <div class="container">
-            <div class="speakers-carousel" id="speakers-carousel">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-3 speaker">
-                            <div class="speaker-img">
-                                <img src="assets/img/kominami.png">
-                            </div> <!--
-                            <div class="speaker-img">
-                                <img src="assets/img/palestrante-dois.png">
-                            </div>
-                            <div class="speaker-img">
-                                <img src="assets/img/palestrante-tres.png">
-                            </div>
-                            <div class="speaker-img">
-                                <img src="assets/img/palestrante-quatro.png"> -->
-                            </div>
-                        </div>
+        </div> 
+        <div class="container-fluid speaker-mobile-carousel">
+          <div class="carousel" id="myCarousel">
+            <div class="carousel-inner">
+
+               <div class="carousel-item active">
+                   <div class="col-md-3 speaker">
+                      <div class="speaker-img">
+                         <img src="assets/img/fabiano.jpg">
+                      </div>
+                      <div class="speaker-desc">
+                             <p>Fabiano Martucci</p>
+                      </div>
                     </div>
                 </div>
+
+               <div class="carousel-item">
+                   <div class="col-md-3 speaker">
+                      <div class="speaker-img">
+                         <img src="assets/img/amadeu.jpg">
+                      </div>
+                      <div class="speaker-desc">
+                             <p>Sérgio Amadeu</p>
+                      </div>
+                    </div>
+                </div>
+
+               <div class="carousel-item">
+                   <div class="col-md-3 speaker">
+                      <div class="speaker-img">
+                         <img src="assets/img/flavia.jpg">
+                      </div>
+                      <div class="speaker-desc">
+                             <p>Flávia Lefevre</p>
+                      </div>
+                    </div>
+                </div>
+
+               <div class="carousel-item">
+                   <div class="col-md-3 speaker">
+                      <div class="speaker-img">
+                         <img src="assets/img/suellen.jpg">
+                      </div>
+                      <div class="speaker-desc">
+                             <p>Suellen Fialho</p>
+                      </div>
+                    </div>
+                </div> 
+
+                <div class="carousel-item">
+                   <div class="col-md-3 speaker">
+                      <div class="speaker-img">
+                         <img src="assets/img/samanta-lopes.jpg">
+                      </div>
+                      <div class="speaker-desc">
+                             <p>Samanta Lopes</p>
+                      </div>
+                    </div>
+                </div>
+
+               <div class="carousel-item">
+                   <div class="col-md-3 speaker">
+                      <div class="speaker-img">
+                         <img src="assets/img/amanda-pellini.png">
+                      </div>
+                      <div class="speaker-desc">
+                             <p>Amanda Pellini</p>
+                      </div>
+                    </div>
+                </div>
+
+               <div class="carousel-item">
+                   <div class="col-md-3 speaker">
+                      <div class="speaker-img">
+                        <img src="assets/img/diana-santos.jpg">
+                      </div>
+                      <div class="speaker-desc">
+                             <p>Diana Santos</p>
+                      </div>
+                    </div>
+                </div> 
+
+               <div class="carousel-item">
+                   <div class="col-md-3 speaker">
+                      <div class="speaker-img">
+                        <img src="assets/img/mariana-pavan.jpg">
+                      </div>
+                     <div class="speaker-desc">
+                             <p>Mariana Pavan</p>
+                      </div>
+                    </div>
+                </div> 
+
+               <div class="carousel-item">
+                   <div class="col-md-3 speaker">
+                      <div class="speaker-img">
+                        <img src="assets/img/paulo-mainardi.png">
+                      </div>
+                      <div class="speaker-desc">
+                             <p>Paulo Mainardi</p>
+                      </div>
+                    </div>
+                </div> 
+
+               <div class="carousel-item">
+                   <div class="col-md-3 speaker">
+                      <div class="speaker-img">
+                        <img src="assets/img/artur-cordeiro.jpg">
+                      </div>
+                      <div class="speaker-desc">
+                             <p>Artur Cordeiro</p>
+                      </div>
+                    </div>
+                </div> 
+
+               <div class="carousel-item">
+                   <div class="col-md-3 speaker">
+                      <div class="speaker-img">
+                        <img src="assets/img/cicero-henrique.jpg">
+                      </div>
+                      <div class="speaker-desc">
+                             <p>Cícero Henrique</p>
+                      </div>
+                    </div>
+                </div> 
+
+               <div class="carousel-item">
+                   <div class="col-md-3 speaker">
+                      <div class="speaker-img">
+                        <img src="assets/img/daniel-annenberg.jpg">
+                      </div>
+                      <div class="speaker-desc">
+                             <p>Danniel Annenberg</p>
+                      </div>
+                    </div>
+                </div> 
+
+               <div class="carousel-item">
+                   <div class="col-md-3 speaker">
+                      <div class="speaker-img">
+                        <img src="assets/img/paschon.png">
+                      </div>
+                      <div class="speaker-desc">
+                             <p>Danilo Paschon</p>
+                      </div>
+                    </div>
+                </div> 
+
+               <div class="carousel-item">
+                   <div class="col-md-3 speaker">
+                      <div class="speaker-img">
+                        <img src="assets/img/fabio-souza.jpg">
+                      </div>
+                      <div class="speaker-desc">
+                             <p>Fábio Souza</p>
+                      </div>
+                    </div>
+                </div> 
+
+               <div class="carousel-item">
+                   <div class="col-md-3 speaker">
+                      <div class="speaker-img">
+                        <img src="assets/img/igor-vac.jpg">
+                      </div>
+                      <div class="speaker-desc">
+                             <p>Igor Vac</p>
+                      </div>
+                    </div>
+                </div> 
+
+               <div class="carousel-item">
+                   <div class="col-md-3 speaker">
+                      <div class="speaker-img">
+                        <img src="assets/img/isaque-criscuolo.jpg">
+                      </div>
+                      <div class="speaker-desc">
+                             <p>Isaque Criscuolo</p>
+                      </div>
+                    </div>
+                </div> 
+
+               <div class="carousel-item">
+                   <div class="col-md-3 speaker">
+                      <div class="speaker-img">
+                        <img src="assets/img/bruno-silveira.png">
+                      </div>
+                      <div class="speaker-desc">
+                             <p>Bruno Silveira</p>
+                      </div>
+                    </div>
+                </div> 
+
+               <div class="carousel-item">
+                   <div class="col-md-3 speaker">
+                      <div class="speaker-img">
+                        <img src="assets/img/mauricio-jabur.jpg">
+                      </div>
+                      <div class="speaker-desc">
+                             <p>Maurício Jabur</p>
+                      </div>
+                    </div>
+                </div> 
+
+               <div class="carousel-item">
+                   <div class="col-md-3 speaker">
+                      <div class="speaker-img">
+                        <img src="assets/img/kominami.png">
+                      </div>
+                      <div class="speaker-desc">
+                             <p>Gui Kominami</p>
+                      </div>
+                    </div>
+                </div> 
+
+               <div class="carousel-item">
+                   <div class="col-md-3 speaker">
+                      <div class="speaker-img">
+                        <img src="assets/img/mayra-torres.png">
+                      </div>
+                      <div class="speaker-desc">
+                             <p>Mayra Torres</p>
+                      </div>
+                    </div>
+                </div>
+
+               <div class="carousel-item">
+                   <div class="col-md-3 speaker">
+                      <div class="speaker-img">
+                         <img src="assets/img/amanda-pellini.png">
+                      </div>
+                      <div class="speaker-desc">
+                             <p>Amanda Pellini</p>
+                      </div>
+                    </div>
+                </div>
+
+                </div>
+
+                <a data-slide="prev" href="#myCarousel" id="left-controller" class="left carousel-control"><</a>
+                <a data-slide="next" href="#myCarousel" id="right-controller" class="right carousel-control">></a> 
+
             </div>
         </div>
     </section>
@@ -453,6 +752,60 @@
     <!-- Comunidades Mobile -->
     <section id="comunidades-section-mobile" class="d-block d-lg-none d-xl-none comunidades-section-mobile container-fluid">
         <img src="./assets/img/comunidades-section-mobile.png" class="img-fluid" alt="Background com textura hexagonal. Seção como chegar na SP MakerWeek.">
+        <div class="container-fluid comunidades-mobile-carousel">
+          <div class="carousel" id="mobileCarousel">
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                <div class="col-md-3 speaker">
+                    <div class="comunidades-img">
+                        <img src="assets/img/cyber-educa.png">
+                    </div>
+                   <div class="comunidades-desc">
+                           <p>Cyber Educa</p>
+                   </div>
+                </div>
+                </div>
+
+               <div class="carousel-item">
+                   <div class="col-md-3 speaker">
+                      <div class="comunidades-img">
+                        <img src="assets/img/hardware-livre.png">
+                      </div>
+                      <div class="comunidades-desc">
+                             <p>Hardware Livre USP</p>
+                      </div>
+                    </div>
+                </div> 
+
+               <div class="carousel-item">
+                   <div class="col-md-3 speaker">
+                      <div class="comunidades-img">
+                        <img src="assets/img/mau-maker.jpg">
+                      </div>
+                      <div class="comunidades-desc">
+                             <p>Mau Maker</p>
+                      </div>
+                    </div>
+                </div> 
+
+               <div class="carousel-item">
+                   <div class="col-md-3 speaker">
+                      <div class="comunidades-img">
+                        <img src="assets/img/mirante-lab.png">
+                      </div>
+                      <div class="comunidades-desc">
+                             <p>MiranteLab</p>
+                      </div>
+                    </div>
+                </div> 
+
+                <a data-slide="prev" href="#mobileCarousel" id="left-controller-comunidades" class="comunidade-control red left carousel-control"><</a>
+                <a data-slide="next" href="#mobileCarousel" id="right-controller-comunidades" class="comunidade-control red right carousel-control">></a> 
+
+            </div>
+        </div>
+    </div>
     </section>
     <!--/ Comunidades Mobile -->
 
@@ -608,6 +961,7 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </body>

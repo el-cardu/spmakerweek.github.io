@@ -1,4 +1,4 @@
-var eventDate = new Date("Sep 26, 2018 09:00:00").getTime();
+var eventDate = new Date("Sep 26, 2018 10:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -18,10 +18,20 @@ var x = setInterval(function() {
   document.getElementById("countdown").innerHTML = days + " : " + hours + " : "
   + minutes + " : " + seconds;
 
+  var words = [
+  "Aprender",
+  "Fazer",
+  "Compartilhar",
+  "Colaborar",
+  "Prototipar"
+];
+
+  var randomPhrase = words[Math.floor(Math.random()*words.length)];
+
   // If the countdown is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("countdown").innerHTML = "É HOJE";
+    document.getElementById("countdown").innerHTML = randomPhrase;
   }
   
 }, 1000);

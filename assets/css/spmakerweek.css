@@ -134,7 +134,7 @@ header a {
 
 .speakers-section {
   background-color: #0D293C;  
-  height: 1450px; 
+  height: 600px; 
 }
 
 .speakers-section img {
@@ -146,10 +146,14 @@ header a {
   padding: 60px 0;
 }
 
+.speakers-section  .speakers-carousel .left {
+  font-size: 40px;
+  height: 40px;
+}
+
 .speakers-carousel .speaker-img {
-  width: 90%;
-  margin: 0 auto;
-  left: -60px;
+  width: 70%;
+  left: -16%;
   top: -80px;
   position: relative;
   z-index: 3;
@@ -177,8 +181,24 @@ header a {
 
 .speakers-carousel .speaker-desc p {
   font-size: 18px;
+  margin-top: 30px; 
   margin-left: 90px;
   z-index: 3;
+}
+
+.speakers-carousel .col-md-3 {
+  padding-left: 15px;
+} 
+ 
+#left-controller, #right-controller {
+  font-size: 40px;
+  top: 140px;
+  position: absolute;
+  text-decoration: none;
+}
+
+#right-controller {
+  left: 98%;
 }
 
 .comunidades-image {
@@ -265,7 +285,7 @@ footer {
   height: 380px; 
 }
 
-footer h2, a {
+footer > h2, a {
   top: 100px;
   font-size: 18px;
   text-align: center;
@@ -325,16 +345,108 @@ footer h2, a {
     font-size: 40px;
   }
 
-  .speakers-carousel .speaker-img {
+  .carousel-item.active,
+  .carousel-item-next,
+  .carousel-item-prev {
+    display: block !important;
+  }
+
+  .speakers-section-mobile {
+    position: relative;
+  }
+
+  .speaker-mobile-carousel{
+    position: absolute;
+    top: -400px;
+  }
+
+   .carousel-item img, .carousel-item.active img{
     width: 75%;
     margin: 0 auto;
     left: 0px;
-    top: -400px;
+    top: 50px;
+    z-index: 3;
+    border-radius: 150%;
+    padding: 6px;
+    border: solid #FFF;
+    display: inline-block;
+    max-width: 100%;
+}
+
+  div.speaker-img {
+    margin-top: 550px;
+    margin-left: 40px;
+  }
+
+  div.speaker-desc {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  .speakers-carousel .speakers-desc {
+    top: -180px;
+  }
+
+  #left-controller, #right-controller {
+    font-size: 40px;
+    top: 640px;
+    text-decoration: none;
+    position: absolute;
     z-index: 3;
 }
 
-  .speakers-carousel .speakers-desc {
-    top: -100px;
+  #right-controller {
+    left: 87%;
+  }
+
+   .comunidades-section-mobile {
+     position: relative;
+   }
+
+   .comunidades-mobile-carousel{
+    position: absolute;
+    top: 140px;
+  }
+
+   .carousel-item .comunidades-img img, 
+   .carousel-item.active .comunidades-img img{
+    width: 75%;
+    margin: 0 auto;
+    left: 0px;
+    top: 50px;
+    z-index: 3;
+    border-radius: 150%;
+    padding: 6px;
+    border: solid #EB1C24;
+    display: inline-block;
+    max-width: 100%;
+}  
+  
+  div.comunidades-img {
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+
+  div.comunidades-desc {
+    color: #EB1C24;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5%;
+  }
+
+    #left-controller-comunidades, #right-controller-comunidades {
+    font-size: 40px;
+    top: 90px;
+    text-decoration: none;
+    position: absolute;
+    color: #EB1C24;
+    z-index: 3;
+}
+
+  #right-controller-comunidades {
+    left: 87%;
   }
 
   footer {
@@ -405,6 +517,7 @@ footer h2, a {
   top: 150px;
   padding-right: 10px;
   position: absolute;
+  z-index: 99;
 }
 
 .botao-agenda-mobile-1,
@@ -422,11 +535,17 @@ footer h2, a {
   top: 280px;
   padding-right: 10px;
   position: absolute;
+  z-index: 99;
 }
 
 .agenda-section-mobile-button, .speakers-section-mobile-button {
   padding-top: 30px;
   margin-left: 20px;
+}
+
+.speaker-mobile-carousel {
+  padding-top: -50px;
+  position: absolute;
 }
 
 .speakers-section-mobile {
@@ -440,6 +559,7 @@ footer h2, a {
 
 .comunidades-section-mobile {
   position: relative;
+  height: 484px;    
 }
 
 .ver-no-mapa-button-mobile {
@@ -493,18 +613,19 @@ footer h2, a {
   }
 
   .speakers-carousel .speaker-img {
-    width: 90%;
-    margin: 0 auto;
-    left: -40px;
+    width: 65%;
     top: -80px;
     position: relative;
     z-index: 3;
 }
+
   
   .speakers-carousel .speaker-desc p {
     margin: 0 auto;
     text-align: center;
-    margin-left: 160px;
+    margin-left: 120px;
+    margin-top: 100px;
+    font-size: 24px;
   }
 
   .agenda-section {
@@ -526,7 +647,7 @@ footer h2, a {
   }
 
   .speakers-section {
-    height: 1500px;
+    height: 660px;
   }
 
   .speakers-section img {
